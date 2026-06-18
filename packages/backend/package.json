@@ -1,0 +1,66 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": ">=24.7.0"
+  },
+  "scripts": {
+    "generate": "pnpm generate:prisma",
+    "generate:prisma": "prisma generate",
+    "migrate": "prisma migrate dev && prisma generate",
+    "migrate:create": "pnpm prisma migrate dev --create-only",
+    "dev": "nodemon",
+    "lint": "biome check .",
+    "type": "tsc --noEmit",
+    "migrate:deploy": "prisma migrate deploy && prisma generate",
+    "build": "pnpm install --prod=false && pnpm generate && tsc && resolve-tspaths && pnpm migrate:deploy",
+    "test": "NODE_ENV=test pnpm migrate:test && pnpm run-test",
+    "seed": "tsx prisma/seed.ts",
+    "run-test": "DATABASE_URL=${DATABASE_URL:-postgresql://prisma:prisma@localhost:5434/tests} vitest run --passWithNoTests",
+    "migrate:test": "DATABASE_URL=${DATABASE_URL:-postgresql://prisma:prisma@localhost:5434/tests} pnpm prisma migrate dev",
+    "db:test:start": "docker-compose -p test -f ../../docker-compose.jest.yml down && docker-compose -p test -f ../../docker-compose.jest.yml up -d"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@pothos/core": "^4.12.0",
+    "@pothos/plugin-prisma": "^4.14.2",
+    "@pothos/plugin-scope-auth": "^4.1.6",
+    "@prisma/adapter-pg": "^7.2.0",
+    "@prisma/client": "^7.2.0",
+    "@sentry/node": "^8.55.0",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.18.0",
+    "helmet": "^8.1.0",
+    "nanoid": "^3.3.7",
+    "pg": "^8.16.3",
+    "pino": "^9.9.0",
+    "pino-pretty": "^13.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.11.10",
+    "@types/supertest": "^6.0.2",
+    "@vitest/coverage-v8": "^4.1.8",
+    "@vitest/ui": "^4.1.8",
+    "nodemon": "^3.0.1",
+    "prisma": "^7.2.0",
+    "resolve-tspaths": "^0.8.15",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.8"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}

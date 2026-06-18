@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": ["esnext"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "rootDir": "../backend",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "sourceMap": true,
+    "target": "esnext",
+    "types": ["vitest/globals"]
+  }
+}
