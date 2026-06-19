@@ -27,8 +27,9 @@ const Movies = () => {
       <Page>
         <Header />
         <ErrorPanel>
-          <Typography color="error" variant="body1">
-            We couldn't load the films: {error.message}
+          <Typography variant="body1">We couldn't load the films.</Typography>
+          <Typography color="text.secondary" variant="body2">
+            {error.message}
           </Typography>
           <Button onClick={() => refetch()} variant="contained">
             Try again

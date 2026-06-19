@@ -12,22 +12,35 @@ kind: site
 ## Welcome page
 
 - Studio name (heading): Studio Ghibli
-- Overview paragraph: O Studio Ghibli é o lendário estúdio de animação japonês responsável por filmes muito queridos como A Viagem de Chihiro, O Meu Vizinho Totoro e A Princesa Mononoke.
+- Hero headline: Mundos onde vale a pena se perder
+- Overview paragraph: O Studio Ghibli é o lendário estúdio de animação japonês por trás de filmes adorados como A Viagem de Chihiro, O Meu Vizinho Totoro e A Princesa Mononoke — celebrado pela sua arte desenhada à mão, pelos seus mundos ricamente imaginados e pelas suas histórias comoventes.
+- Secondary line under the overview: Explore uma seleção dos filmes do estúdio e descubra os seus detalhes.
 - Button that opens the movies list: Ver Filmes
 
 ## Movies page
 
 - Page heading: Filmes do Studio Ghibli
+- Page subtitle: Dez histórias de voos, florestas e lugares distantes.
 - Link back to the welcome page: Voltar à página inicial
+- Error message when films fail to load: Não foi possível carregar os filmes.
+- Retry button: Tentar novamente
 
 ## Film detail labels
 
 - Director: Realizador
 - Release date: Estreia
 - Runtime: Duração
+- Runtime unit (shown after a number, e.g. 124 min): min
 - Review score source: Rotten Tomatoes
 - Trivia section: Curiosidades
+
+## Fallback pages
+
+- Not-found page — back-home button: Voltar ao início
+- Error page — heading: Ups!
+- Error page — message: Lamentamos, ocorreu um erro inesperado.
 
 ## Application
 
 - Application name: Studio Ghibli
+- Page description (search engines / sharing): Explore os filmes do Studio Ghibli — títulos, detalhes e curiosidades.

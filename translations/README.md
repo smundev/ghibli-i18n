@@ -11,9 +11,10 @@ speakers before any production use.
 
 ## Structure
 
-- `site/<lang>.md` — general, static site copy. Each string is described by where
-  it appears in the UI (not by a predefined key); how to key, group, and model it
-  is up to you. Provided for **all 20 languages**.
+- `site/<lang>.md` — general, static site copy (covers every user-facing string,
+  including the welcome and movies screens plus the not-found and error pages).
+  Each string is described by where it appears in the UI, not by a predefined key;
+  how to key, group, and model it is up to you. Provided for **all 20 languages**.
 - `films/<film-slug>/<lang>.md` — per-film copy. The fields (title, tagline,
   description, trivia) mirror the film data the backend already exposes. Present
   only for the languages that film supports.
