@@ -1,29 +1,19 @@
 import type { RouteObject } from "react-router-dom";
-import LoginPage from "~/modules/auth/LoginPage";
-import Home from "~/modules/home/Home";
-import Profile from "~/modules/profile/Profile";
+import Movies from "~/modules/movies/Movies";
+import Welcome from "~/modules/welcome/Welcome";
 import ErrorPage from "~/shared/components/ErrorPage";
 import NotFound from "~/shared/components/NotFound";
-import Layout from "./shared/components/Layout";
 
 const routes: RouteObject[] = [
   {
     path: "/",
-    element: <LoginPage />,
+    element: <Welcome />,
     errorElement: <ErrorPage />,
   },
   {
-    element: <Layout />,
-    children: [
-      {
-        path: "/home",
-        element: <Home />,
-      },
-      {
-        path: "/user/:userId",
-        element: <Profile />,
-      },
-    ],
+    path: "/movies",
+    element: <Movies />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "*",
