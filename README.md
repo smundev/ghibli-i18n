@@ -1,38 +1,76 @@
-# README
+# Studio Ghibli Films
 
-> A monorepo managed through [lerna](https://github.com/lerna/lerna) that houses packages related to the README project.
+A small monorepo that serves Studio Ghibli film details through a GraphQL API
+and renders them in a React app. The app is English-only.
 
-## Getting Started
+- **`packages/backend`** — a GraphQL API (GraphQL Yoga + Pothos) that serves ten
+  Studio Ghibli films from local seed data.
+- **`packages/frontend`** — a React + Apollo Client app with a Welcome screen and
+  a Movies screen that lists the films using generated, typed GraphQL hooks.
 
-### Install node
+## Prerequisites
+
+### Node
+
+This project targets the Node version pinned in `.nvmrc` (currently `24.7.0`):
 
 ```bash
-nvm install 20.11
+nvm install
+nvm use
+node --version
 ```
 
-The `.nvmrc` file in the root of this project should default to node 20.11 if you run `nvm use`.
-Confirm that this is the case by running `node --version` on the command line.
+### pnpm
 
-### Install pnpm
+Install pnpm by following the [pnpm installation instructions](https://pnpm.io/installation).
 
-Follow the [pnpm installation instructions](https://pnpm.io/installation).
+## Install
 
-### Install dependencies
-
-We use [pnpm workspaces](https://pnpm.io/workspaces), which allows for dependency sharing between packages. This allows us to just do a single install at the root folder.
+This is a [pnpm workspace](https://pnpm.io/workspaces), so a single install at the
+repository root sets up every package:
 
 ```bash
 pnpm install
 ```
 
-## Deployments
+## Run
 
-We use Render to handle deployments.
+Start the backend and the frontend in two terminals:
 
-### Staging Deploy
+```bash
+# terminal 1 — GraphQL API on http://localhost:8080/api/graphql
+pnpm --filter ./packages/backend dev
 
-Staging deploys are started automatically when a commit is merged into the `develop` branch.
+# terminal 2 — web app on http://localhost:3000
+pnpm --filter ./packages/frontend dev
+```
 
-### Production Deploy
+See [`packages/backend/README.md`](packages/backend/README.md) and
+[`packages/frontend/README.md`](packages/frontend/README.md) for package-specific
+setup, scripts, and environment variables.
 
-Production deploys are started automatically when a commit is merged into the `main` branch. Merge with caution!
+## How film data is served
+
+The backend does **not** call an external API at runtime. The four featured films
+and six additional titles are stored as local seed data in
+`packages/backend/src/schemaModules/film/films.data.ts` (sourced from the public
+[Studio Ghibli API](https://ghibliapi.vercel.app/) dataset) and returned directly
+by the `films` and `film(id)` queries.
+
+## `translations/`
+
+The top-level `translations/` directory holds Markdown source material for
+localizing the app. **These files are not imported or read by any application
+code** — the app serves English only. See
+[`translations/README.md`](translations/README.md) for details.
+
+## Quality checks
+
+The same checks run in CI:
+
+```bash
+pnpm --filter ./packages/backend generate   # Prisma client + schema.graphql
+pnpm exec biome check .                      # lint & format
+pnpm -r run type                             # TypeScript, all packages
+pnpm exec knip                               # unused files / exports / deps
+```
