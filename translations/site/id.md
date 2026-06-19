@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Kembali ke beranda
 - Error page — heading: Aduh!
 - Error page — message: Maaf, terjadi kesalahan yang tidak terduga.
+- Error page — unknown-error fallback: Kesalahan tidak dikenal
 
 ## Application
 

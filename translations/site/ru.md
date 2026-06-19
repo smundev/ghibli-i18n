@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Вернуться на главную
 - Error page — heading: Ой!
 - Error page — message: Извините, произошла непредвиденная ошибка.
+- Error page — unknown-error fallback: Неизвестная ошибка
 
 ## Application
 

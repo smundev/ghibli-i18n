@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: ホームに戻る
 - Error page — heading: おっと！
 - Error page — message: 申し訳ありません。予期しないエラーが発生しました。
+- Error page — unknown-error fallback: 不明なエラー
 
 ## Application
 

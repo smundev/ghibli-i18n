@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Wróć na stronę główną
 - Error page — heading: Ojej!
 - Error page — message: Przepraszamy, wystąpił nieoczekiwany błąd.
+- Error page — unknown-error fallback: Nieznany błąd
 
 ## Application
 

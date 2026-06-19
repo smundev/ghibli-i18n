@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Ana sayfaya dön
 - Error page — heading: Eyvah!
 - Error page — message: Üzgünüz, beklenmeyen bir hata oluştu.
+- Error page — unknown-error fallback: Bilinmeyen hata
 
 ## Application
 

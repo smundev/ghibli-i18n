@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Quay về trang chủ
 - Error page — heading: Ối!
 - Error page — message: Xin lỗi, đã xảy ra lỗi không mong muốn.
+- Error page — unknown-error fallback: Lỗi không xác định
 
 ## Application
 

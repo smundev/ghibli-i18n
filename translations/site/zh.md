@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: 返回首页
 - Error page — heading: 哎呀！
 - Error page — message: 抱歉，发生了意外错误。
+- Error page — unknown-error fallback: 未知错误
 
 ## Application
 

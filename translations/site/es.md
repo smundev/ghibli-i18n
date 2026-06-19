@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Volver al inicio
 - Error page — heading: ¡Vaya!
 - Error page — message: Lo sentimos, se ha producido un error inesperado.
+- Error page — unknown-error fallback: Error desconocido
 
 ## Application
 

@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Zurück zur Startseite
 - Error page — heading: Hoppla!
 - Error page — message: Entschuldigung, ein unerwarteter Fehler ist aufgetreten.
+- Error page — unknown-error fallback: Unbekannter Fehler
 
 ## Application
 

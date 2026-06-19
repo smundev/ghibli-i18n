@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Go back home
 - Error page — heading: Oops!
 - Error page — message: Sorry, an unexpected error has occurred.
+- Error page — unknown-error fallback: Unknown error
 
 ## Application
 

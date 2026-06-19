@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Gå tillbaka till startsidan
 - Error page — heading: Hoppsan!
 - Error page — message: Tyvärr har ett oväntat fel inträffat.
+- Error page — unknown-error fallback: Okänt fel
 
 ## Application
 

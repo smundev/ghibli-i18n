@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: العودة إلى الصفحة الرئيسية
 - Error page — heading: أوبس!
 - Error page — message: عذرًا، حدث خطأ غير متوقع.
+- Error page — unknown-error fallback: خطأ غير معروف
 
 ## Application
 

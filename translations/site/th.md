@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: กลับสู่หน้าแรก
 - Error page — heading: อุ๊ปส์!
 - Error page — message: ขออภัย เกิดข้อผิดพลาดที่ไม่คาดคิดขึ้น
+- Error page — unknown-error fallback: ข้อผิดพลาดที่ไม่รู้จัก
 
 ## Application
 

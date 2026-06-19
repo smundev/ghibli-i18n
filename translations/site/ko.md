@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: 홈으로 돌아가기
 - Error page — heading: 이런!
 - Error page — message: 죄송합니다. 예기치 못한 오류가 발생했습니다.
+- Error page — unknown-error fallback: 알 수 없는 오류
 
 ## Application
 

@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: Terug naar de startpagina
 - Error page — heading: Oeps!
 - Error page — message: Sorry, er is een onverwachte fout opgetreden.
+- Error page — unknown-error fallback: Onbekende fout
 
 ## Application
 

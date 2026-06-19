@@ -39,6 +39,7 @@ kind: site
 - Not-found page — back-home button: वापस होम पर जाएँ
 - Error page — heading: अरे!
 - Error page — message: क्षमा करें, एक अप्रत्याशित त्रुटि हुई है।
+- Error page — unknown-error fallback: अज्ञात त्रुटि
 
 ## Application
 
