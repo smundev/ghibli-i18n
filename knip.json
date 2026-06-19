@@ -5,6 +5,9 @@
   "workspaces": {
     "packages/backend": {
       "entry": ["src/server.ts"]
+    },
+    "packages/frontend": {
+      "ignore": ["src/graphql/gen/**"]
     }
   }
 }

@@ -7,8 +7,9 @@
     "node": ">=24.7.0"
   },
   "scripts": {
-    "generate": "pnpm generate:prisma",
+    "generate": "pnpm generate:prisma && pnpm generate:schema",
     "generate:prisma": "prisma generate",
+    "generate:schema": "tsx src/generate-schema.ts",
     "migrate": "prisma migrate dev && prisma generate",
     "migrate:create": "pnpm prisma migrate dev --create-only",
     "dev": "nodemon",

@@ -11,7 +11,3 @@ export function getAuthScopes(): AuthScopes {
 export const defaultQueryScopes = {
   public: true,
 } as const satisfies Partial<AuthScopes>;
-
-export const defaultMutationScopes = {
-  public: true,
-} as const satisfies Partial<AuthScopes>;

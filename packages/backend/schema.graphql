@@ -1,0 +1,55 @@
+"""
+Date custom scalar type
+"""
+scalar Date
+
+"""
+A Studio Ghibli film and its English details.
+"""
+type Film {
+  """
+  Wide banner image URL.
+  """
+  banner: String!
+  description: String!
+  director: String!
+  id: ID!
+
+  """
+  Poster image URL.
+  """
+  image: String!
+
+  """
+  Locales this film is translated into; always includes "en".
+  """
+  languages: [String!]!
+
+  """
+  Release year, e.g. "2001".
+  """
+  releaseDate: String!
+
+  """
+  Running time in minutes, e.g. "124".
+  """
+  runtime: String!
+
+  """
+  Rotten Tomatoes score, e.g. "97".
+  """
+  score: String!
+  title: String!
+}
+
+type Query {
+  """
+  Fetch a single Studio Ghibli film by id.
+  """
+  film(id: ID!): Film
+
+  """
+  List all Studio Ghibli films.
+  """
+  films: [Film!]!
+}

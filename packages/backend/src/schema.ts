@@ -7,7 +7,6 @@ import type PrismaTypes from "~/generated/pothos-types";
 import { getDatamodel } from "~/generated/pothos-types";
 import {
   type AuthScopes,
-  defaultMutationScopes,
   defaultQueryScopes,
   getAuthScopes,
 } from "~/permissions";
@@ -53,8 +52,4 @@ builder.scalarType("Date", {
 
 builder.queryType({
   authScopes: defaultQueryScopes,
-});
-
-builder.mutationType({
-  authScopes: defaultMutationScopes,
 });
