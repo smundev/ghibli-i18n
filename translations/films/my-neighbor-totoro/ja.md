@@ -3,7 +3,7 @@ lang: ja
 film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 ---
 
-# My Neighbor Totoro (Japanese)
+# となりのトトロ (Japanese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 
 ## Fields
 
-- **title:** My Neighbor Totoro
-- **tagline:** Two sisters meet the magical spirits of the forest.
-- **description:** Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.
+- **title:** となりのトトロ
+- **tagline:** 二人の姉妹が、森の不思議な精霊たちと出会う。
+- **description:** 二人の姉妹は、入院している母のそばで暮らすため、父とともに田舎へ引っ越す。そして、周りの木々に森の不思議な精霊トトロが棲んでいることを知る。妹が家を飛び出してしまったとき、姉は妹を見つけるために精霊たちの力を借りようとする。
 - **trivia:**
-  - Totoro became Studio Ghibli's mascot and appears in its logo.
-  - Released in 1988 as a double feature with Grave of the Fireflies.
-  - The Catbus is among the most iconic creatures in Japanese animation.
-
-_Translate the English fields above into Japanese._
+  - トトロはスタジオジブリのマスコットとなり、ロゴにも登場している。
+  - 1988年に『火垂るの墓』との二本立てとして公開された。
+  - ネコバスは、日本のアニメーションで最も象徴的なキャラクターの一つである。

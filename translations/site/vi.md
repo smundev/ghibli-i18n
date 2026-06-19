@@ -13,14 +13,12 @@ kind: site
 
 - **app.title:** Studio Ghibli
 - **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **welcome.overview:** Studio Ghibli là hãng phim hoạt hình huyền thoại của Nhật Bản, đứng sau những bộ phim được yêu thích như Vùng đất linh hồn, Hàng xóm của tôi là Totoro và Công chúa Mononoke.
+- **welcome.cta:** Xem phim
+- **movies.heading:** Phim của Studio Ghibli
+- **movies.back:** Quay lại trang chào mừng
+- **film.director:** Đạo diễn
+- **film.released:** Phát hành
+- **film.runtime:** Thời lượng
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Vietnamese._
+- **film.trivia:** Chuyện bên lề

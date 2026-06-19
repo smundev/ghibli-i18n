@@ -13,14 +13,12 @@ kind: site
 
 - **app.title:** Studio Ghibli
 - **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **welcome.overview:** Studio Ghibli is de legendarische Japanse animatiestudio achter geliefde films zoals Spirited Away, My Neighbor Totoro en Princess Mononoke.
+- **welcome.cta:** Bekijk films
+- **movies.heading:** Studio Ghibli-films
+- **movies.back:** Terug naar welkom
+- **film.director:** Regisseur
+- **film.released:** Uitgebracht
+- **film.runtime:** Speelduur
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Dutch._
+- **film.trivia:** Wetenswaardigheden

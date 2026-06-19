@@ -3,7 +3,7 @@ lang: es
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Spanish)
+# El castillo ambulante (Spanish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** El castillo ambulante
+- **tagline:** Una chica maldita, un mago errante y un castillo andante.
+- **description:** Cuando Sophie, una joven tímida, es maldecida con un cuerpo anciano por una bruja rencorosa, su única posibilidad de romper el hechizo recae en un mago joven, vanidoso pero inseguro, y en sus compañeros dentro de su hogar andante con patas.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Spanish._
+  - Adaptación de la novela de 1986 de la autora británica Diana Wynne Jones.
+  - Christian Bale pone la voz a Howl en el doblaje en inglés.
+  - Sus temas antibélicos se vieron influidos por la oposición de Miyazaki a la guerra de Irak.

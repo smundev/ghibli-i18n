@@ -13,14 +13,12 @@ kind: site
 
 - **app.title:** Studio Ghibli
 - **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **welcome.overview:** Studio Ghibli, Ruhların Kaçışı, Komşum Totoro ve Prenses Mononoke gibi sevilen filmlerin arkasındaki efsanevi Japon animasyon stüdyosudur.
+- **welcome.cta:** Filmleri Görüntüle
+- **movies.heading:** Studio Ghibli Filmleri
+- **movies.back:** Karşılama sayfasına dön
+- **film.director:** Yönetmen
+- **film.released:** Yayın tarihi
+- **film.runtime:** Süre
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Turkish._
+- **film.trivia:** İlginç bilgiler

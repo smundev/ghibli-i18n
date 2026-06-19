@@ -3,7 +3,7 @@ lang: es
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Spanish)
+# El viaje de Chihiro (Spanish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** El viaje de Chihiro
+- **tagline:** Perdida en un mundo de espíritus, una niña debe encontrar el camino a casa.
+- **description:** El viaje de Chihiro es una película de animación japonesa ganadora de un Óscar sobre una niña de diez años que se aleja de sus padres por un camino que conduce a un mundo gobernado por animales extraños y monstruosos. Sus padres han sido convertidos en cerdos junto con otros, dentro de una casa de baños llena de estas criaturas. ¿Volverá a ver alguna vez el mundo tal y como era antes?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Spanish._
+  - Ganó el Óscar a la mejor película de animación en 2003.
+  - Se convirtió en la película más taquillera de la historia de Japón en el momento de su estreno.
+  - Miyazaki la concibió para las hijas de diez años de sus amigos.

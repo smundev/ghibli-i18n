@@ -3,7 +3,7 @@ lang: es
 film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 ---
 
-# My Neighbor Totoro (Spanish)
+# Mi vecino Totoro (Spanish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 
 ## Fields
 
-- **title:** My Neighbor Totoro
-- **tagline:** Two sisters meet the magical spirits of the forest.
-- **description:** Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.
+- **title:** Mi vecino Totoro
+- **tagline:** Dos hermanas conocen a los espíritus mágicos del bosque.
+- **description:** Dos hermanas se mudan al campo con su padre para estar más cerca de su madre hospitalizada y descubren que los árboles de los alrededores están habitados por los Totoros, espíritus mágicos del bosque. Cuando la más pequeña se escapa de casa, la hermana mayor busca la ayuda de los espíritus para encontrarla.
 - **trivia:**
-  - Totoro became Studio Ghibli's mascot and appears in its logo.
-  - Released in 1988 as a double feature with Grave of the Fireflies.
-  - The Catbus is among the most iconic creatures in Japanese animation.
-
-_Translate the English fields above into Spanish._
+  - Totoro se convirtió en la mascota de Studio Ghibli y aparece en su logotipo.
+  - Se estrenó en 1988 como programa doble junto a La tumba de las luciérnagas.
+  - El Gatobús es una de las criaturas más icónicas de la animación japonesa.

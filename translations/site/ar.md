@@ -11,16 +11,14 @@ kind: site
 
 ## Strings
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **app.title:** استوديو جيبلي
+- **welcome.heading:** استوديو جيبلي
+- **welcome.overview:** استوديو جيبلي هو استوديو الرسوم المتحركة الياباني الأسطوري الذي يقف وراء أفلام محبوبة مثل المخطوفة، وجاري توتورو، والأميرة مونونوكي.
+- **welcome.cta:** عرض الأفلام
+- **movies.heading:** أفلام استوديو جيبلي
+- **movies.back:** العودة إلى الترحيب
+- **film.director:** المخرج
+- **film.released:** تاريخ الإصدار
+- **film.runtime:** مدة العرض
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Arabic._
+- **film.trivia:** معلومات طريفة

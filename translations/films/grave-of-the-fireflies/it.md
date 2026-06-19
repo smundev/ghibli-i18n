@@ -3,7 +3,7 @@ lang: it
 film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
 ---
 
-# Grave of the Fireflies (Italian)
+# Una tomba per le lucciole (Italian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
 
 ## Fields
 
-- **title:** Grave of the Fireflies
-- **tagline:** A brother and sister struggle to survive in wartime Japan.
-- **description:** In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle.
+- **title:** Una tomba per le lucciole
+- **tagline:** Un fratello e una sorella lottano per sopravvivere nel Giappone in guerra.
+- **description:** Nell'ultima parte della Seconda guerra mondiale, un ragazzo e sua sorella, rimasti orfani dopo che la madre viene uccisa nel bombardamento incendiario di Tokyo, sono costretti a sopravvivere da soli in ciò che resta della vita civile in Giappone. La trama segue questo ragazzo e sua sorella mentre fanno del loro meglio per sopravvivere nella campagna giapponese, combattendo contro la fame, il pregiudizio e l'orgoglio nella loro silenziosa e personale battaglia.
 - **trivia:**
-  - Directed by Isao Takahata, based on Akiyuki Nosaka's semi-autobiographical novel.
-  - Released as a double feature with My Neighbor Totoro.
-  - Widely regarded as one of the most powerful anti-war films ever made.
-
-_Translate the English fields above into Italian._
+  - Diretto da Isao Takahata, basato sul romanzo semi-autobiografico di Akiyuki Nosaka.
+  - Uscito come doppia proiezione insieme a Il mio vicino Totoro.
+  - Considerato da molti uno dei film pacifisti più potenti mai realizzati.

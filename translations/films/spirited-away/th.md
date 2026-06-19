@@ -3,7 +3,7 @@ lang: th
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Thai)
+# มิติวิญญาณมหัศจรรย์ (Thai)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** มิติวิญญาณมหัศจรรย์
+- **tagline:** เด็กหญิงผู้หลงเข้าไปในโลกของภูตวิญญาณต้องค้นหาทางกลับบ้านให้จงได้
+- **description:** มิติวิญญาณมหัศจรรย์เป็นภาพยนตร์แอนิเมชันญี่ปุ่นที่ได้รับรางวัลออสการ์ ว่าด้วยเรื่องราวของเด็กหญิงวัยสิบขวบที่พลัดหลงจากพ่อแม่ไปตามเส้นทางซึ่งนำไปสู่โลกที่ปกครองโดยเหล่าสัตว์ประหลาดอันแปลกประหลาดและพิสดาร พ่อแม่ของเธอถูกเปลี่ยนให้กลายเป็นหมูพร้อมกับคนอื่น ๆ ภายในโรงอาบน้ำที่เต็มไปด้วยสิ่งมีชีวิตเหล่านี้ เธอจะได้เห็นโลกกลับมาเป็นเหมือนเดิมอีกครั้งหรือไม่
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Thai._
+  - คว้ารางวัลออสการ์สาขาภาพยนตร์แอนิเมชันยอดเยี่ยมในปี 2003
+  - กลายเป็นภาพยนตร์ที่ทำรายได้สูงสุดในประวัติศาสตร์ญี่ปุ่นในช่วงเวลาที่เข้าฉาย
+  - มิยาซากิคิดเรื่องนี้ขึ้นมาเพื่อลูกสาววัยสิบขวบของเหล่าเพื่อนของเขา

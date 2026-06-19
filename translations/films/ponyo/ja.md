@@ -3,7 +3,7 @@ lang: ja
 film_id: 758bf02e-3122-46e0-884e-67cf83df1786
 ---
 
-# Ponyo (Japanese)
+# 崖の上のポニョ (Japanese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 758bf02e-3122-46e0-884e-67cf83df1786
 
 ## Fields
 
-- **title:** Ponyo
-- **tagline:** A goldfish princess who longs to become human.
-- **description:** The son of a sailor, 5-year old Sosuke lives a quiet life on an oceanside cliff with his mother Lisa. One fateful day, he finds a beautiful goldfish trapped in a bottle on the beach and upon rescuing her, names her Ponyo. But she is no ordinary goldfish. The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl and quickly falls in love with Sosuke, but the use of such powerful sorcery causes a dangerous imbalance in the world. As the moon steadily draws nearer to the earth and Ponyo's father sends the ocean's mighty waves to find his daughter, the two children embark on an adventure of a lifetime to save the world and fulfill Ponyo's dreams of becoming human.
+- **title:** 崖の上のポニョ
+- **tagline:** 人間になることを夢見る金魚の姫。
+- **description:** 船乗りの息子である5歳の宗介は、海辺の崖の上で母リサと静かに暮らしていた。ある運命の日、彼は浜辺で瓶に閉じ込められた美しい金魚を見つけて助け出し、ポニョと名付ける。しかし、彼女はただの金魚ではなかった。優れた魔法使いと海の女神の娘であるポニョは、父の魔法を使って人間の少女へと姿を変え、たちまち宗介に恋をする。だが、そのような強大な魔法の使用は、世界に危険な不均衡を引き起こしてしまう。月が次第に地球へと近づき、ポニョの父が娘を探すために大海原の荒波を放つなか、二人の子どもたちは、世界を救い、人間になりたいというポニョの夢を叶えるため、生涯にわたる冒険へと旅立つ。
 - **trivia:**
-  - Loosely inspired by Hans Christian Andersen's The Little Mermaid.
-  - Animated almost entirely by hand, using around 170,000 drawings.
-  - Miyazaki avoided most CGI to keep a hand-drawn, storybook look.
-
-_Translate the English fields above into Japanese._
+  - ハンス・クリスチャン・アンデルセンの『人魚姫』から緩やかに着想を得ている。
+  - 約17万枚の作画を用いて、ほぼすべて手描きで制作された。
+  - 宮崎駿は、手描きの絵本のような雰囲気を保つため、ほとんどのCGを避けた。

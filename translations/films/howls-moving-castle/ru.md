@@ -3,7 +3,7 @@ lang: ru
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Russian)
+# Ходячий замок (Russian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** Ходячий замок
+- **tagline:** Проклятая девушка, странствующий чародей и шагающий замок.
+- **description:** Когда застенчивую молодую девушку Софи злобная ведьма проклинает, превратив её в старуху, единственная надежда снять заклятие связана с эгоистичным, но неуверенным в себе молодым чародеем и его спутниками, обитающими в его шагающем доме на ногах.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Russian._
+  - Экранизация романа 1986 года британской писательницы Дианы Уинн Джонс.
+  - В англоязычном дубляже Хаула озвучивает Кристиан Бейл.
+  - Антивоенные мотивы фильма сложились под влиянием неприятия Миядзаки войны в Ираке.

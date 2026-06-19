@@ -3,7 +3,7 @@ lang: fr
 film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
 ---
 
-# Grave of the Fireflies (French)
+# Le Tombeau des lucioles (French)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
 
 ## Fields
 
-- **title:** Grave of the Fireflies
-- **tagline:** A brother and sister struggle to survive in wartime Japan.
-- **description:** In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle.
+- **title:** Le Tombeau des lucioles
+- **tagline:** Un frère et une sœur luttent pour survivre dans le Japon en guerre.
+- **description:** Vers la fin de la Seconde Guerre mondiale, un garçon et sa sœur, devenus orphelins après que leur mère a été tuée lors du bombardement incendiaire de Tokyo, sont livrés à eux-mêmes dans ce qu'il reste de la vie civile au Japon. L'intrigue suit ce garçon et sa sœur tandis qu'ils font de leur mieux pour survivre dans la campagne japonaise, affrontant la faim, les préjugés et la fierté dans leur propre combat, discret et intime.
 - **trivia:**
-  - Directed by Isao Takahata, based on Akiyuki Nosaka's semi-autobiographical novel.
-  - Released as a double feature with My Neighbor Totoro.
-  - Widely regarded as one of the most powerful anti-war films ever made.
-
-_Translate the English fields above into French._
+  - Réalisé par Isao Takahata, d'après le roman semi-autobiographique d'Akiyuki Nosaka.
+  - Sorti en double programme avec Mon voisin Totoro.
+  - Largement considéré comme l'un des films anti-guerre les plus puissants jamais réalisés.

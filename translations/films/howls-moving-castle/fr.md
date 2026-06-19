@@ -3,7 +3,7 @@ lang: fr
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (French)
+# Le Château ambulant (French)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** Le Château ambulant
+- **tagline:** Une jeune fille maudite, un magicien errant et un château qui marche.
+- **description:** Lorsque Sophie, une jeune femme timide, est maudite et transformée en vieille femme par une sorcière rancunière, sa seule chance de briser le sortilège repose sur un jeune magicien aussi vaniteux que peu sûr de lui et ses compagnons, dans sa demeure ambulante montée sur pattes.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into French._
+  - Adapté du roman de 1986 de l'autrice britannique Diana Wynne Jones.
+  - Christian Bale prête sa voix à Hauru dans la version doublée en anglais.
+  - Ses thèmes anti-guerre ont été façonnés par l'opposition de Miyazaki à la guerre d'Irak.

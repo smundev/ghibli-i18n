@@ -3,7 +3,7 @@ lang: pt
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Portuguese)
+# O Castelo Andante (Portuguese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** O Castelo Andante
+- **tagline:** Uma rapariga amaldiçoada, um feiticeiro errante e um castelo ambulante.
+- **description:** Quando Sophie, uma jovem tímida, é amaldiçoada com um corpo de idosa por uma bruxa rancorosa, a sua única hipótese de quebrar o feitiço está nas mãos de um feiticeiro vaidoso, mas inseguro, e dos seus companheiros, no seu lar ambulante apoiado em pernas.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Portuguese._
+  - Adaptado do romance de 1986 da autora britânica Diana Wynne Jones.
+  - Christian Bale dá voz a Howl na dobragem em inglês.
+  - Os seus temas anti-guerra foram moldados pela oposição de Miyazaki à Guerra do Iraque.

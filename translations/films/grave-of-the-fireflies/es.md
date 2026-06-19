@@ -3,7 +3,7 @@ lang: es
 film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
 ---
 
-# Grave of the Fireflies (Spanish)
+# La tumba de las luciérnagas (Spanish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
 
 ## Fields
 
-- **title:** Grave of the Fireflies
-- **tagline:** A brother and sister struggle to survive in wartime Japan.
-- **description:** In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle.
+- **title:** La tumba de las luciérnagas
+- **tagline:** Un hermano y una hermana luchan por sobrevivir en el Japón de la guerra.
+- **description:** En la última etapa de la Segunda Guerra Mundial, un niño y su hermana, huérfanos después de que su madre muriera en los bombardeos incendiarios de Tokio, quedan a su suerte en lo que queda de la vida civil en Japón. La trama sigue a este niño y a su hermana mientras hacen todo lo posible por sobrevivir en el campo japonés, enfrentándose al hambre, los prejuicios y el orgullo en su propia batalla silenciosa y personal.
 - **trivia:**
-  - Directed by Isao Takahata, based on Akiyuki Nosaka's semi-autobiographical novel.
-  - Released as a double feature with My Neighbor Totoro.
-  - Widely regarded as one of the most powerful anti-war films ever made.
-
-_Translate the English fields above into Spanish._
+  - Dirigida por Isao Takahata, basada en la novela semiautobiográfica de Akiyuki Nosaka.
+  - Se estrenó como programa doble junto a Mi vecino Totoro.
+  - Es ampliamente considerada una de las películas antibélicas más impactantes jamás realizadas.

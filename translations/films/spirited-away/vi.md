@@ -3,7 +3,7 @@ lang: vi
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Vietnamese)
+# Vùng đất linh hồn (Vietnamese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** Vùng đất linh hồn
+- **tagline:** Lạc vào thế giới của các linh hồn, một cô bé phải tìm đường trở về nhà.
+- **description:** Vùng đất linh hồn là một bộ phim hoạt hình Nhật Bản từng đoạt giải Oscar, kể về một cô bé mười tuổi đi lạc khỏi cha mẹ trên một con đường dẫn đến một thế giới bị cai trị bởi những sinh vật kỳ lạ và quái dị giống như quái vật. Cha mẹ cô bé đã bị biến thành lợn cùng với nhiều người khác bên trong một nhà tắm công cộng đầy những sinh vật này. Liệu cô bé có bao giờ được nhìn thấy thế giới như xưa nữa không?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Vietnamese._
+  - Đoạt giải Oscar cho Phim hoạt hình hay nhất năm 2003.
+  - Trở thành bộ phim có doanh thu cao nhất trong lịch sử Nhật Bản vào thời điểm phát hành.
+  - Miyazaki đã hình thành ý tưởng cho bộ phim dành cho các con gái mười tuổi của bạn bè ông.

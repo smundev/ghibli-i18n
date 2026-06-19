@@ -3,7 +3,7 @@ lang: es
 film_id: 758bf02e-3122-46e0-884e-67cf83df1786
 ---
 
-# Ponyo (Spanish)
+# Ponyo en el acantilado (Spanish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 758bf02e-3122-46e0-884e-67cf83df1786
 
 ## Fields
 
-- **title:** Ponyo
-- **tagline:** A goldfish princess who longs to become human.
-- **description:** The son of a sailor, 5-year old Sosuke lives a quiet life on an oceanside cliff with his mother Lisa. One fateful day, he finds a beautiful goldfish trapped in a bottle on the beach and upon rescuing her, names her Ponyo. But she is no ordinary goldfish. The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl and quickly falls in love with Sosuke, but the use of such powerful sorcery causes a dangerous imbalance in the world. As the moon steadily draws nearer to the earth and Ponyo's father sends the ocean's mighty waves to find his daughter, the two children embark on an adventure of a lifetime to save the world and fulfill Ponyo's dreams of becoming human.
+- **title:** Ponyo en el acantilado
+- **tagline:** Una princesa pez dorado que anhela convertirse en humana.
+- **description:** Sosuke, un niño de 5 años hijo de un marinero, lleva una vida tranquila en un acantilado junto al mar con su madre, Lisa. Un día fatídico encuentra un hermoso pez dorado atrapado en una botella en la playa y, al rescatarlo, lo llama Ponyo. Pero no es un pez dorado cualquiera. Hija de un poderoso mago y de una diosa del mar, Ponyo utiliza la magia de su padre para transformarse en una niña y se enamora rápidamente de Sosuke, pero el uso de una hechicería tan poderosa provoca un peligroso desequilibrio en el mundo. A medida que la luna se acerca cada vez más a la tierra y el padre de Ponyo envía las poderosas olas del océano en busca de su hija, los dos niños emprenden la aventura de su vida para salvar el mundo y cumplir el sueño de Ponyo de convertirse en humana.
 - **trivia:**
-  - Loosely inspired by Hans Christian Andersen's The Little Mermaid.
-  - Animated almost entirely by hand, using around 170,000 drawings.
-  - Miyazaki avoided most CGI to keep a hand-drawn, storybook look.
-
-_Translate the English fields above into Spanish._
+  - Inspirada libremente en La sirenita de Hans Christian Andersen.
+  - Animada casi por completo a mano, con unos 170.000 dibujos.
+  - Miyazaki evitó la mayor parte de las imágenes generadas por ordenador para conservar un aspecto dibujado a mano, como el de un cuento ilustrado.

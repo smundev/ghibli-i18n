@@ -3,7 +3,7 @@ lang: zh
 film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 ---
 
-# My Neighbor Totoro (Chinese)
+# 龙猫 (Chinese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 
 ## Fields
 
-- **title:** My Neighbor Totoro
-- **tagline:** Two sisters meet the magical spirits of the forest.
-- **description:** Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.
+- **title:** 龙猫
+- **tagline:** 两姐妹邂逅森林中神奇的精灵。
+- **description:** 两姐妹随父亲搬到乡下，以便离住院的母亲更近，却发现周围的树木里住着龙猫——森林中神奇的精灵。当年幼的妹妹离家出走时，姐姐向精灵们求助，寻找她的下落。
 - **trivia:**
-  - Totoro became Studio Ghibli's mascot and appears in its logo.
-  - Released in 1988 as a double feature with Grave of the Fireflies.
-  - The Catbus is among the most iconic creatures in Japanese animation.
-
-_Translate the English fields above into Chinese._
+  - 龙猫成为了吉卜力工作室的吉祥物，并出现在其标志中。
+  - 于1988年与《萤火虫之墓》作为联映双片上映。
+  - 猫巴士是日本动画中最具标志性的角色之一。

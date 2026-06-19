@@ -3,7 +3,7 @@ lang: it
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Italian)
+# Il castello errante di Howl (Italian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** Il castello errante di Howl
+- **tagline:** Una ragazza maledetta, un mago errante e un castello che cammina.
+- **description:** Quando Sophie, una giovane donna timida, viene maledetta da una strega vendicativa che le dona un corpo da anziana, la sua unica possibilità di spezzare l'incantesimo risiede in un giovane mago egocentrico ma insicuro e nei suoi compagni, all'interno della sua dimora semovente dotata di zampe.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Italian._
+  - Tratto dal romanzo del 1986 della scrittrice britannica Diana Wynne Jones.
+  - Christian Bale presta la voce a Howl nel doppiaggio in lingua inglese.
+  - I suoi temi pacifisti furono ispirati dall'opposizione di Miyazaki alla guerra in Iraq.

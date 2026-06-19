@@ -3,7 +3,7 @@ lang: uk
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Ukrainian)
+# Віднесені привидами (Ukrainian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** Віднесені привидами
+- **tagline:** Загубившись у світі духів, дівчинка має знайти дорогу додому.
+- **description:** «Віднесені привидами» — це удостоєний премії «Оскар» японський анімаційний фільм про десятирічну дівчинку, яка відбивається від батьків і вирушає стежкою, що веде до світу, яким керують дивні та незвичайні монстроподібні створіння. Її батьки перетворилися на свиней разом з іншими відвідувачами лазні, повної цих істот. Чи побачить вона колись світ таким, яким він був раніше?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Ukrainian._
+  - Отримав премію «Оскар» за найкращий анімаційний повнометражний фільм у 2003 році.
+  - На момент виходу став найкасовішим фільмом в історії Японії.
+  - Міядзакі задумав його для десятирічних доньок своїх друзів.

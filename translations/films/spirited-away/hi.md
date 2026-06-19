@@ -3,7 +3,7 @@ lang: hi
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Hindi)
+# स्पिरिटेड अवे (Hindi)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** स्पिरिटेड अवे
+- **tagline:** आत्माओं की दुनिया में खोई हुई एक लड़की को अपने घर का रास्ता खोजना है।
+- **description:** स्पिरिटेड अवे एक ऑस्कर विजेता जापानी एनिमेटेड फ़िल्म है, जो एक दस वर्षीय लड़की के बारे में है, जो अपने माता-पिता से भटककर एक ऐसे रास्ते पर चली जाती है, जो विचित्र और असामान्य राक्षस जैसे प्राणियों द्वारा शासित दुनिया में ले जाता है। उसके माता-पिता, इन प्राणियों से भरे एक स्नानगृह के अंदर दूसरों के साथ सूअरों में बदल दिए जाते हैं। क्या वह कभी दुनिया को फिर से वैसा देख पाएगी, जैसी वह पहले थी?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Hindi._
+  - 2003 में सर्वश्रेष्ठ एनिमेटेड फ़ीचर के लिए अकादमी पुरस्कार जीता।
+  - रिलीज़ के समय यह जापानी इतिहास की सबसे अधिक कमाई करने वाली फ़िल्म बन गई।
+  - मियाज़ाकी ने इसे अपने दोस्तों की दस वर्षीय बेटियों के लिए परिकल्पित किया था।

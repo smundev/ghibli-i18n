@@ -3,7 +3,7 @@ lang: tr
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Turkish)
+# Ruhların Kaçışı (Turkish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** Ruhların Kaçışı
+- **tagline:** Ruhlar dünyasında kaybolan bir kız, eve dönüş yolunu bulmak zorundadır.
+- **description:** Ruhların Kaçışı, ailesinden uzaklaşıp tuhaf ve sıra dışı canavarımsı yaratıkların hüküm sürdüğü bir dünyaya çıkan bir yola sapan on yaşındaki bir kız hakkında, Oscar ödüllü bir Japon animasyon filmidir. Kızın ailesi, bu yaratıklarla dolu bir hamamda başkalarıyla birlikte domuza dönüştürülmüştür. Acaba kız, dünyayı eskiden olduğu gibi bir daha görebilecek mi?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Turkish._
+  - 2003'te En İyi Animasyon Filmi dalında Akademi Ödülü'nü kazandı.
+  - Gösterime girdiği dönemde Japonya tarihinin en çok hasılat yapan filmi oldu.
+  - Miyazaki bu filmi, arkadaşlarının on yaşındaki kızları için tasarladı.

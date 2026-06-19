@@ -3,7 +3,7 @@ lang: de
 film_id: 2baf70d1-42bb-4437-b551-e5fed5a87abe
 ---
 
-# Castle in the Sky (German)
+# Das Schloss im Himmel (German)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 2baf70d1-42bb-4437-b551-e5fed5a87abe
 
 ## Fields
 
-- **title:** Castle in the Sky
-- **tagline:** A floating kingdom and the crystal that holds its secret.
-- **description:** The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.
+- **title:** Das Schloss im Himmel
+- **tagline:** Ein schwebendes Königreich und der Kristall, der sein Geheimnis birgt.
+- **description:** Die Waise Sheeta erbte einen geheimnisvollen Kristall, der sie mit dem sagenhaften Himmelskönigreich Laputa verbindet. Mit der Hilfe des einfallsreichen Pazu und einer ausgelassenen Bande von Himmelspiraten bahnt sie sich ihren Weg zu den Ruinen der einst großen Zivilisation. Sheeta und Pazu müssen den bösen Muska überlisten, der die Wissenschaft Laputas nutzen will, um sich zum Herrscher der Welt zu machen.
 - **trivia:**
-  - The first feature film officially produced by Studio Ghibli (1986).
-  - The sky island Laputa takes its name from Jonathan Swift's Gulliver's Travels.
-  - Joe Hisaishi's score helped define the studio's musical identity.
-
-_Translate the English fields above into German._
+  - Der erste Spielfilm, der offiziell von Studio Ghibli produziert wurde (1986).
+  - Die Himmelsinsel Laputa hat ihren Namen von Jonathan Swifts Gullivers Reisen.
+  - Joe Hisaishis Filmmusik trug dazu bei, die musikalische Identität des Studios zu prägen.

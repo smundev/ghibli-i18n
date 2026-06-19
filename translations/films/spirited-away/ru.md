@@ -3,7 +3,7 @@ lang: ru
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Russian)
+# Унесённые призраками (Russian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** Унесённые призраками
+- **tagline:** Затерявшись в мире духов, девочка должна найти дорогу домой.
+- **description:** «Унесённые призраками» — отмеченный «Оскаром» японский анимационный фильм о десятилетней девочке, которая отстаёт от родителей на пути, ведущем в мир, где правят странные и необычные похожие на чудовищ существа. Её родители вместе с другими людьми превратились в свиней внутри купальни, полной этих созданий. Сможет ли она когда-нибудь вновь увидеть мир таким, каким он был прежде?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Russian._
+  - Получил премию «Оскар» за лучший анимационный полнометражный фильм в 2003 году.
+  - На момент выхода стал самым кассовым фильмом в истории Японии.
+  - Миядзаки задумал его для десятилетних дочерей своих друзей.

@@ -3,7 +3,7 @@ lang: de
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (German)
+# Chihiros Reise ins Zauberland (German)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** Chihiros Reise ins Zauberland
+- **tagline:** Verloren in einer Welt der Geister muss ein Mädchen den Weg nach Hause finden.
+- **description:** Chihiros Reise ins Zauberland ist ein oscarprämierter japanischer Animationsfilm über ein zehnjähriges Mädchen, das sich von seinen Eltern entfernt und einem Pfad folgt, der in eine Welt führt, die von seltsamen und ungewöhnlichen monsterartigen Wesen beherrscht wird. Ihre Eltern wurden zusammen mit anderen in einem Badehaus voller dieser Geschöpfe in Schweine verwandelt. Wird sie die Welt jemals wieder so sehen, wie sie einst war?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into German._
+  - Gewann 2003 den Oscar für den besten Animationsfilm.
+  - Wurde zum Zeitpunkt der Veröffentlichung zum erfolgreichsten Film der japanischen Geschichte.
+  - Miyazaki erdachte ihn für die zehnjährigen Töchter seiner Freunde.

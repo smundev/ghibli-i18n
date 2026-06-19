@@ -3,7 +3,7 @@ lang: pl
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Polish)
+# Ruchomy zamek Hauru (Polish)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** Ruchomy zamek Hauru
+- **tagline:** Przeklęta dziewczyna, wędrowny czarodziej i kroczący zamek.
+- **description:** Gdy Sophie, nieśmiała młoda kobieta, zostaje przez złośliwą wiedźmę przeklęta starczym ciałem, jej jedyna szansa na zdjęcie klątwy spoczywa w rękach pobłażliwego sobie, lecz niepewnego siebie młodego czarodzieja oraz jego towarzyszy, mieszkających w jego kroczącym domu na nogach.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Polish._
+  - Adaptacja powieści z 1986 roku autorstwa brytyjskiej pisarki Diany Wynne Jones.
+  - W angielskiej wersji dubbingowej głosu Hauru użycza Christian Bale.
+  - Jego antywojenna wymowa została ukształtowana przez sprzeciw Miyazakiego wobec wojny w Iraku.

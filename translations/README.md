@@ -4,14 +4,19 @@
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-These documents are raw source material for translating the application. **No
-application code imports or reads them** — the app serves English only.
+These documents are translated source material for localizing the application.
+**No application code imports or reads them** — the app serves English only. The
+translations were produced with AI assistance and should be reviewed by native
+speakers before any production use.
 
 ## Structure
 
 - `site/<lang>.md` — general, static site copy. Provided for **all 20 languages**.
 - `films/<film-slug>/<lang>.md` — per-film copy (title, tagline, description,
   trivia), present only for the languages that film supports.
+
+In every file the field labels (e.g. `title`, `tagline`, `welcome.cta`) are kept
+in English as stable keys; only the values are translated.
 
 ## Supported languages (20)
 

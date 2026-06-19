@@ -11,16 +11,14 @@ kind: site
 
 ## Strings
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **app.title:** 吉卜力工作室
+- **welcome.heading:** 吉卜力工作室
+- **welcome.overview:** 吉卜力工作室是日本传奇动画工作室，曾创作出《千与千寻》《龙猫》《幽灵公主》等深受喜爱的影片。
+- **welcome.cta:** 查看影片
+- **movies.heading:** 吉卜力工作室影片
+- **movies.back:** 返回欢迎页
+- **film.director:** 导演
+- **film.released:** 上映时间
+- **film.runtime:** 片长
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Chinese._
+- **film.trivia:** 趣闻

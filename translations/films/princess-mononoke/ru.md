@@ -3,7 +3,7 @@ lang: ru
 film_id: 0440483e-ca0e-4120-8c50-4c8cd9b965d6
 ---
 
-# Princess Mononoke (Russian)
+# Принцесса Мононоке (Russian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 0440483e-ca0e-4120-8c50-4c8cd9b965d6
 
 ## Fields
 
-- **title:** Princess Mononoke
-- **tagline:** Caught between the gods of the forest and the people of iron.
-- **description:** Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.
+- **title:** Принцесса Мононоке
+- **tagline:** Между богами леса и людьми железа.
+- **description:** Аситака, принц исчезающего племени айнов, проклят демонизированным богом-вепрем и должен отправиться на запад в поисках исцеления. По пути он встречает Сан, юную девушку, сражающуюся за спасение леса, и госпожу Эбоси, которая стремится его уничтожить. Аситака должен найти способ восстановить равновесие в этом противостоянии.
 - **trivia:**
-  - Held the record as Japan's highest-grossing film until Titanic surpassed it.
-  - Neil Gaiman wrote the English-language adaptation script.
-  - Took roughly three years and a then-record budget to complete.
-
-_Translate the English fields above into Russian._
+  - Удерживал звание самого кассового фильма Японии, пока его не превзошёл «Титаник».
+  - Нил Гейман написал сценарий англоязычной адаптации.
+  - На создание ушло около трёх лет и рекордный по тем временам бюджет.

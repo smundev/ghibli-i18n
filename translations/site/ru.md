@@ -11,16 +11,14 @@ kind: site
 
 ## Strings
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **app.title:** Студия Гибли
+- **welcome.heading:** Студия Гибли
+- **welcome.overview:** Студия Гибли — это легендарная японская анимационная студия, создавшая такие любимые зрителями фильмы, как «Унесённые призраками», «Мой сосед Тоторо» и «Принцесса Мононоке».
+- **welcome.cta:** Смотреть фильмы
+- **movies.heading:** Фильмы студии Гибли
+- **movies.back:** Назад на главную
+- **film.director:** Режиссёр
+- **film.released:** Год выпуска
+- **film.runtime:** Продолжительность
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Russian._
+- **film.trivia:** Интересные факты

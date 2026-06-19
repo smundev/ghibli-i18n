@@ -3,7 +3,7 @@ lang: it
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Italian)
+# La città incantata (Italian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** La città incantata
+- **tagline:** Smarrita in un mondo di spiriti, una bambina deve ritrovare la strada di casa.
+- **description:** La città incantata è un film d'animazione giapponese premio Oscar che racconta di una bambina di dieci anni che si allontana dai genitori lungo un sentiero che conduce a un mondo dominato da strani e insoliti animali simili a mostri. I suoi genitori sono stati trasformati in maiali insieme ad altri all'interno di una casa da bagno popolata da queste creature. Riuscirà mai a rivedere il mondo com'era un tempo?
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Italian._
+  - Ha vinto l'Oscar per il miglior film d'animazione nel 2003.
+  - All'epoca dell'uscita divenne il film con i maggiori incassi nella storia del Giappone.
+  - Miyazaki lo ideò per le figlie decenni dei suoi amici.

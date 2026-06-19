@@ -3,7 +3,7 @@ lang: fr
 film_id: 2baf70d1-42bb-4437-b551-e5fed5a87abe
 ---
 
-# Castle in the Sky (French)
+# Le Château dans le ciel (French)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 2baf70d1-42bb-4437-b551-e5fed5a87abe
 
 ## Fields
 
-- **title:** Castle in the Sky
-- **tagline:** A floating kingdom and the crystal that holds its secret.
-- **description:** The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.
+- **title:** Le Château dans le ciel
+- **tagline:** Un royaume flottant et le cristal qui en garde le secret.
+- **description:** L'orpheline Sheeta a hérité d'un mystérieux cristal qui la relie au royaume mythique du ciel, Laputa. Avec l'aide de l'ingénieux Pazu et d'une joyeuse bande de pirates du ciel, elle se fraye un chemin jusqu'aux ruines de cette civilisation autrefois grandiose. Sheeta et Pazu doivent déjouer les plans du machiavélique Muska, qui projette d'utiliser la science de Laputa pour se faire maître du monde.
 - **trivia:**
-  - The first feature film officially produced by Studio Ghibli (1986).
-  - The sky island Laputa takes its name from Jonathan Swift's Gulliver's Travels.
-  - Joe Hisaishi's score helped define the studio's musical identity.
-
-_Translate the English fields above into French._
+  - Le premier long métrage officiellement produit par le Studio Ghibli (1986).
+  - L'île céleste de Laputa tient son nom des Voyages de Gulliver de Jonathan Swift.
+  - La musique de Joe Hisaishi a contribué à définir l'identité musicale du studio.

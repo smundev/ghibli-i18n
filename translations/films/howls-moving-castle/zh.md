@@ -3,7 +3,7 @@ lang: zh
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Chinese)
+# 哈尔的移动城堡 (Chinese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** 哈尔的移动城堡
+- **tagline:** 一个被诅咒的少女，一位流浪的巫师，和一座行走的城堡。
+- **description:** 当腼腆的年轻女子苏菲被一位心怀恶意的女巫诅咒、变成了老妇人的身躯时，她打破诅咒的唯一希望，寄托在一位放纵自我却又缺乏安全感的年轻巫师，以及他那座长着脚、会行走的家中的同伴们身上。
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Chinese._
+  - 改编自英国作家黛安娜·韦恩·琼斯于1986年创作的小说。
+  - 在英语配音版中，由克里斯蒂安·贝尔为哈尔配音。
+  - 其反战主题源于宫崎骏对伊拉克战争的反对。

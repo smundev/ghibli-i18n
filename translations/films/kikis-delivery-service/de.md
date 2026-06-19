@@ -3,7 +3,7 @@ lang: de
 film_id: ea660b10-85c4-4ae3-8a5f-41cea3648e3e
 ---
 
-# Kiki's Delivery Service (German)
+# Kikis kleiner Lieferservice (German)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: ea660b10-85c4-4ae3-8a5f-41cea3648e3e
 
 ## Fields
 
-- **title:** Kiki's Delivery Service
-- **tagline:** A young witch finds her place in the world.
-- **description:** A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.
+- **title:** Kikis kleiner Lieferservice
+- **tagline:** Eine junge Hexe findet ihren Platz in der Welt.
+- **description:** Eine junge Hexe findet es während ihres verpflichtenden Jahres der Selbstständigkeit schwierig, sich in einer neuen Gemeinschaft einzuleben, während sie sich mit einem Luftkurierdienst über Wasser hält.
 - **trivia:**
-  - Adapted from Eiko Kadono's 1985 children's novel.
-  - The seaside town Koriko was inspired by Stockholm and Visby in Sweden.
-  - Kiki's black cat Jiji is one of Ghibli's best-loved sidekicks.
-
-_Translate the English fields above into German._
+  - Basiert auf Eiko Kadonos Kinderbuch von 1985.
+  - Die Küstenstadt Koriko wurde von Stockholm und Visby in Schweden inspiriert.
+  - Kikis schwarzer Kater Jiji ist einer der beliebtesten Begleiter aus dem Hause Ghibli.

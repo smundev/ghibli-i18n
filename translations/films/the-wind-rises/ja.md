@@ -3,7 +3,7 @@ lang: ja
 film_id: 67405111-37a5-438f-81cc-4666af60c800
 ---
 
-# The Wind Rises (Japanese)
+# 風立ちぬ (Japanese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 67405111-37a5-438f-81cc-4666af60c800
 
 ## Fields
 
-- **title:** The Wind Rises
-- **tagline:** A dreamer who designs the planes he loves.
-- **description:** A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.
+- **title:** 風立ちぬ
+- **tagline:** 自らが愛する飛行機を設計する、一人の夢想家。
+- **description:** 生涯にわたる飛行への愛が、日本の航空技術者・堀越二郎を奮い立たせる。彼の輝かしい経歴には、第二次世界大戦の戦闘機「零戦」の開発も含まれている。
 - **trivia:**
-  - A fictionalized biography of aircraft engineer Jiro Horikoshi.
-  - Announced as Hayao Miyazaki's retirement film, though he later returned.
-  - Nominated for the Academy Award for Best Animated Feature.
-
-_Translate the English fields above into Japanese._
+  - 航空技術者・堀越二郎を脚色した伝記作品である。
+  - 宮崎駿の引退作として発表されたが、後に彼は復帰した。
+  - アカデミー賞長編アニメーション賞にノミネートされた。

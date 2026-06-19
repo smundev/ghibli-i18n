@@ -3,7 +3,7 @@ lang: fr
 film_id: 0440483e-ca0e-4120-8c50-4c8cd9b965d6
 ---
 
-# Princess Mononoke (French)
+# Princesse Mononoké (French)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 0440483e-ca0e-4120-8c50-4c8cd9b965d6
 
 ## Fields
 
-- **title:** Princess Mononoke
-- **tagline:** Caught between the gods of the forest and the people of iron.
-- **description:** Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.
+- **title:** Princesse Mononoké
+- **tagline:** Pris entre les dieux de la forêt et les hommes du fer.
+- **description:** Ashitaka, prince de la tribu en voie de disparition des Ainu, est maudit par un dieu-sanglier démoniaque et doit voyager vers l'ouest pour trouver un remède. En chemin, il rencontre San, une jeune femme humaine qui se bat pour protéger la forêt, et Dame Eboshi, qui cherche à la détruire. Ashitaka doit trouver un moyen de rétablir l'équilibre dans ce conflit.
 - **trivia:**
-  - Held the record as Japan's highest-grossing film until Titanic surpassed it.
-  - Neil Gaiman wrote the English-language adaptation script.
-  - Took roughly three years and a then-record budget to complete.
-
-_Translate the English fields above into French._
+  - A détenu le record du film le plus rentable du Japon jusqu'à ce que Titanic le surpasse.
+  - Neil Gaiman a écrit le scénario de l'adaptation en anglais.
+  - Sa réalisation a nécessité environ trois ans et un budget alors record.

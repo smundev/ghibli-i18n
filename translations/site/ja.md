@@ -11,16 +11,14 @@ kind: site
 
 ## Strings
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke.
-- **welcome.cta:** View Movies
-- **movies.heading:** Studio Ghibli Films
-- **movies.back:** Back to welcome
-- **film.director:** Director
-- **film.released:** Released
-- **film.runtime:** Runtime
+- **app.title:** スタジオジブリ
+- **welcome.heading:** スタジオジブリ
+- **welcome.overview:** スタジオジブリは、『千と千尋の神隠し』『となりのトトロ』『もののけ姫』といった愛される作品を世に送り出した、日本の伝説的なアニメーション制作会社です。
+- **welcome.cta:** 作品を見る
+- **movies.heading:** スタジオジブリ作品
+- **movies.back:** ようこそ画面に戻る
+- **film.director:** 監督
+- **film.released:** 公開年
+- **film.runtime:** 上映時間
 - **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
-
-_Translate the English values above into Japanese._
+- **film.trivia:** 豆知識

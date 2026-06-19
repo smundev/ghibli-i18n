@@ -3,7 +3,7 @@ lang: fr
 film_id: ea660b10-85c4-4ae3-8a5f-41cea3648e3e
 ---
 
-# Kiki's Delivery Service (French)
+# Kiki la petite sorcière (French)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: ea660b10-85c4-4ae3-8a5f-41cea3648e3e
 
 ## Fields
 
-- **title:** Kiki's Delivery Service
-- **tagline:** A young witch finds her place in the world.
-- **description:** A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.
+- **title:** Kiki la petite sorcière
+- **tagline:** Une jeune sorcière trouve sa place dans le monde.
+- **description:** Une jeune sorcière, durant son année obligatoire de vie indépendante, peine à s'intégrer dans une nouvelle communauté tout en subvenant à ses besoins grâce à un service de livraison aérienne.
 - **trivia:**
-  - Adapted from Eiko Kadono's 1985 children's novel.
-  - The seaside town Koriko was inspired by Stockholm and Visby in Sweden.
-  - Kiki's black cat Jiji is one of Ghibli's best-loved sidekicks.
-
-_Translate the English fields above into French._
+  - Adapté du roman pour enfants d'Eiko Kadono paru en 1985.
+  - La ville côtière de Koriko a été inspirée par Stockholm et Visby, en Suède.
+  - Jiji, le chat noir de Kiki, est l'un des acolytes les plus appréciés de Ghibli.

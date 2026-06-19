@@ -12,11 +12,9 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ## Fields
 
 - **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **tagline:** En förbannad flicka, en kringvandrande trollkarl och ett vandrande slott.
+- **description:** När Sophie, en blyg ung kvinna, förbannas med en gammal kropp av en illvillig häxa, ligger hennes enda chans att bryta förtrollningen hos en självupptagen men osäker ung trollkarl och hans följeslagare i hans bensförsedda, vandrande hem.
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Swedish._
+  - Baserad på 1986 års roman av den brittiska författaren Diana Wynne Jones.
+  - Christian Bale gör rösten till Howl i den engelskspråkiga dubbningen.
+  - Dess antikrigsteman formades av Miyazakis motstånd mot Irakkriget.

@@ -3,7 +3,7 @@ lang: fr
 film_id: 67405111-37a5-438f-81cc-4666af60c800
 ---
 
-# The Wind Rises (French)
+# Le vent se lève (French)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 67405111-37a5-438f-81cc-4666af60c800
 
 ## Fields
 
-- **title:** The Wind Rises
-- **tagline:** A dreamer who designs the planes he loves.
-- **description:** A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.
+- **title:** Le vent se lève
+- **tagline:** Un rêveur qui conçoit les avions qu'il aime.
+- **description:** Une passion de toujours pour le vol inspire l'ingénieur aéronautique japonais Jiro Horikoshi, dont la carrière légendaire comprend la création de l'avion de chasse A-6M de la Seconde Guerre mondiale.
 - **trivia:**
-  - A fictionalized biography of aircraft engineer Jiro Horikoshi.
-  - Announced as Hayao Miyazaki's retirement film, though he later returned.
-  - Nominated for the Academy Award for Best Animated Feature.
-
-_Translate the English fields above into French._
+  - Une biographie romancée de l'ingénieur aéronautique Jiro Horikoshi.
+  - Annoncé comme le film d'adieu de Hayao Miyazaki, bien qu'il soit revenu par la suite.
+  - Nommé pour l'Oscar du meilleur film d'animation.

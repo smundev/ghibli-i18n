@@ -3,7 +3,7 @@ lang: ar
 film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 ---
 
-# Spirited Away (Arabic)
+# المخطوفة (Arabic)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: dc2e6bd1-8156-4886-adff-b39e6043af0c
 
 ## Fields
 
-- **title:** Spirited Away
-- **tagline:** Lost in a world of spirits, a girl must find her way home.
-- **description:** Spirited Away is an Oscar winning Japanese animated film about a ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?
+- **title:** المخطوفة
+- **tagline:** تائهةٌ في عالم الأرواح، على فتاة أن تجد طريق العودة إلى ديارها.
+- **description:** المخطوفة فيلم رسوم متحركة ياباني حائز على جائزة الأوسكار، يحكي قصة فتاة في العاشرة من عمرها تبتعد عن والديها على طول طريق يقودها إلى عالم تحكمه حيوانات غريبة وغير مألوفة تشبه الوحوش. وقد تحوّل والداها إلى خنزيرين مع آخرين داخل حمّام عام مليء بهذه المخلوقات. فهل سترى العالم يومًا كما كان من قبل؟
 - **trivia:**
-  - Won the Academy Award for Best Animated Feature in 2003.
-  - Became the highest-grossing film in Japanese history at the time of release.
-  - Miyazaki conceived it for the ten-year-old daughters of his friends.
-
-_Translate the English fields above into Arabic._
+  - فاز بجائزة الأوسكار لأفضل فيلم رسوم متحركة عام 2003.
+  - أصبح أعلى الأفلام تحقيقًا للإيرادات في تاريخ اليابان وقت إصداره.
+  - ابتكره ميازاكي من أجل بنات أصدقائه اللواتي كنّ في العاشرة من العمر.

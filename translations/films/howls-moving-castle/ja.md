@@ -3,7 +3,7 @@ lang: ja
 film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 ---
 
-# Howl's Moving Castle (Japanese)
+# ハウルの動く城 (Japanese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: cd3d059c-09f4-4ff3-8d63-bc765a5184fa
 
 ## Fields
 
-- **title:** Howl's Moving Castle
-- **tagline:** A cursed girl, a wandering wizard, and a walking castle.
-- **description:** When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking home.
+- **title:** ハウルの動く城
+- **tagline:** 呪われた少女、さすらいの魔法使い、そして歩く城。
+- **description:** 内気な若い女性ソフィーは、意地悪な魔女に老いた姿へと変える呪いをかけられてしまう。その呪いを解く唯一の望みは、自分勝手でありながら気弱な若い魔法使いと、足のついた歩く家に暮らす彼の仲間たちにかかっていた。
 - **trivia:**
-  - Adapted from the 1986 novel by British author Diana Wynne Jones.
-  - Christian Bale voices Howl in the English-language dub.
-  - Its anti-war themes were shaped by Miyazaki's opposition to the Iraq War.
-
-_Translate the English fields above into Japanese._
+  - イギリスの作家ダイアナ・ウィン・ジョーンズによる1986年の小説が原作。
+  - 英語吹替版ではクリスチャン・ベールがハウルの声を担当している。
+  - 反戦のテーマは、宮崎駿のイラク戦争への反対姿勢によって形作られた。

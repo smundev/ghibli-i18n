@@ -3,7 +3,7 @@ lang: ja
 film_id: 2baf70d1-42bb-4437-b551-e5fed5a87abe
 ---
 
-# Castle in the Sky (Japanese)
+# 天空の城ラピュタ (Japanese)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 2baf70d1-42bb-4437-b551-e5fed5a87abe
 
 ## Fields
 
-- **title:** Castle in the Sky
-- **tagline:** A floating kingdom and the crystal that holds its secret.
-- **description:** The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.
+- **title:** 天空の城ラピュタ
+- **tagline:** 空に浮かぶ王国と、その秘密を秘めた飛行石。
+- **description:** 孤児のシータは、伝説の天空の王国ラピュタへと自らを結びつける不思議な飛行石を受け継いでいた。機転の利く少年パズーと、にぎやかな空賊の一団の助けを借りて、彼女はかつて栄えた文明の遺跡へとたどり着く。シータとパズーは、ラピュタの科学を使って世界の支配者になろうと企む悪のムスカを出し抜かなければならない。
 - **trivia:**
-  - The first feature film officially produced by Studio Ghibli (1986).
-  - The sky island Laputa takes its name from Jonathan Swift's Gulliver's Travels.
-  - Joe Hisaishi's score helped define the studio's musical identity.
-
-_Translate the English fields above into Japanese._
+  - スタジオジブリが正式に制作した最初の長編映画である(1986年)。
+  - 空に浮かぶ島ラピュタの名は、ジョナサン・スウィフトの『ガリヴァー旅行記』に由来する。
+  - 久石譲の音楽は、スタジオの音楽的個性を決定づける一助となった。

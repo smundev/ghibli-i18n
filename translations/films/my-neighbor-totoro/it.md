@@ -3,7 +3,7 @@ lang: it
 film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 ---
 
-# My Neighbor Totoro (Italian)
+# Il mio vicino Totoro (Italian)
 
 > **PLACEHOLDER — source material only.** These Markdown files ship with the
 > repository as translation source assets. They are **not** imported or read by
@@ -11,12 +11,10 @@ film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 
 ## Fields
 
-- **title:** My Neighbor Totoro
-- **tagline:** Two sisters meet the magical spirits of the forest.
-- **description:** Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.
+- **title:** Il mio vicino Totoro
+- **tagline:** Due sorelle incontrano gli spiriti magici della foresta.
+- **description:** Due sorelle si trasferiscono in campagna con il padre per stare più vicine alla madre ricoverata in ospedale, e scoprono che gli alberi circostanti sono abitati dai Totoro, spiriti magici della foresta. Quando la più piccola scappa di casa, la sorella maggiore chiede aiuto agli spiriti per ritrovarla.
 - **trivia:**
-  - Totoro became Studio Ghibli's mascot and appears in its logo.
-  - Released in 1988 as a double feature with Grave of the Fireflies.
-  - The Catbus is among the most iconic creatures in Japanese animation.
-
-_Translate the English fields above into Italian._
+  - Totoro è diventato la mascotte dello Studio Ghibli e compare nel suo logo.
+  - Uscito nel 1988 come doppia proiezione insieme a Una tomba per le lucciole.
+  - Il Gattobus è tra le creature più iconiche dell'animazione giapponese.
