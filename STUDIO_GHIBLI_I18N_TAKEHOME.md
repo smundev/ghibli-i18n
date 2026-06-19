@@ -24,6 +24,6 @@ This is intentionally open-ended. There's no single right answer — we're inter
 
 Fork this repository, do your work in the fork, and share it with us. Your fork should include:
 
-- The working i18n version of the app.
-- A brief explanation of the decisions you made and why.
-- **Setup and run instructions in the README** — everything needed to run the full i18n version of the app from a clean checkout.
+- **The working app** — the i18n version, running end to end.
+- **Full local setup instructions** — everything needed to get the app running locally from a clean checkout with all the data loaded, so we can QA it. If a step (migrations, seeding, codegen, etc.) is required to see the translations, document it.
+- **An updated README** explaining your trade-offs, the decisions you made and why, and any further features you'd propose with more time.
