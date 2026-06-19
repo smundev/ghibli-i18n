@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Студія Ґіблі
-- **welcome.heading:** Студія Ґіблі
-- **welcome.overview:** Студія Ґіблі — це легендарна японська анімаційна студія, що створила улюблені багатьма фільми, такі як «Віднесені привидами», «Мій сусід Тоторо» та «Принцеса Мононоке».
-- **welcome.cta:** Переглянути фільми
-- **movies.heading:** Фільми Студії Ґіблі
-- **movies.back:** Назад на головну
-- **film.director:** Режисер
-- **film.released:** Дата виходу
-- **film.runtime:** Тривалість
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** Цікаві факти
+- Studio name (heading): Студія Ґіблі
+- Overview paragraph: Студія Ґіблі — це легендарна японська анімаційна студія, що створила улюблені багатьма фільми, такі як «Віднесені привидами», «Мій сусід Тоторо» та «Принцеса Мононоке».
+- Button that opens the movies list: Переглянути фільми
+
+## Movies page
+
+- Page heading: Фільми Студії Ґіблі
+- Link back to the welcome page: Назад на головну
+
+## Film detail labels
+
+- Director: Режисер
+- Release date: Дата виходу
+- Runtime: Тривалість
+- Review score source: Rotten Tomatoes
+- Trivia section: Цікаві факти
+
+## Application
+
+- Application name: Студія Ґіблі

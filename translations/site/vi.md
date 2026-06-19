@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli là hãng phim hoạt hình huyền thoại của Nhật Bản, đứng sau những bộ phim được yêu thích như Vùng đất linh hồn, Hàng xóm của tôi là Totoro và Công chúa Mononoke.
-- **welcome.cta:** Xem phim
-- **movies.heading:** Phim của Studio Ghibli
-- **movies.back:** Quay lại trang chào mừng
-- **film.director:** Đạo diễn
-- **film.released:** Phát hành
-- **film.runtime:** Thời lượng
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** Chuyện bên lề
+- Studio name (heading): Studio Ghibli
+- Overview paragraph: Studio Ghibli là hãng phim hoạt hình huyền thoại của Nhật Bản, đứng sau những bộ phim được yêu thích như Vùng đất linh hồn, Hàng xóm của tôi là Totoro và Công chúa Mononoke.
+- Button that opens the movies list: Xem phim
+
+## Movies page
+
+- Page heading: Phim của Studio Ghibli
+- Link back to the welcome page: Quay lại trang chào mừng
+
+## Film detail labels
+
+- Director: Đạo diễn
+- Release date: Phát hành
+- Runtime: Thời lượng
+- Review score source: Rotten Tomatoes
+- Trivia section: Chuyện bên lề
+
+## Application
+
+- Application name: Studio Ghibli

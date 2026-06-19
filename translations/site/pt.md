@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** O Studio Ghibli é o lendário estúdio de animação japonês responsável por filmes muito queridos como A Viagem de Chihiro, O Meu Vizinho Totoro e A Princesa Mononoke.
-- **welcome.cta:** Ver Filmes
-- **movies.heading:** Filmes do Studio Ghibli
-- **movies.back:** Voltar à página inicial
-- **film.director:** Realizador
-- **film.released:** Estreia
-- **film.runtime:** Duração
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** Curiosidades
+- Studio name (heading): Studio Ghibli
+- Overview paragraph: O Studio Ghibli é o lendário estúdio de animação japonês responsável por filmes muito queridos como A Viagem de Chihiro, O Meu Vizinho Totoro e A Princesa Mononoke.
+- Button that opens the movies list: Ver Filmes
+
+## Movies page
+
+- Page heading: Filmes do Studio Ghibli
+- Link back to the welcome page: Voltar à página inicial
+
+## Film detail labels
+
+- Director: Realizador
+- Release date: Estreia
+- Runtime: Duração
+- Review score source: Rotten Tomatoes
+- Trivia section: Curiosidades
+
+## Application
+
+- Application name: Studio Ghibli

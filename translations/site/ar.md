@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** استوديو جيبلي
-- **welcome.heading:** استوديو جيبلي
-- **welcome.overview:** استوديو جيبلي هو استوديو الرسوم المتحركة الياباني الأسطوري الذي يقف وراء أفلام محبوبة مثل المخطوفة، وجاري توتورو، والأميرة مونونوكي.
-- **welcome.cta:** عرض الأفلام
-- **movies.heading:** أفلام استوديو جيبلي
-- **movies.back:** العودة إلى الترحيب
-- **film.director:** المخرج
-- **film.released:** تاريخ الإصدار
-- **film.runtime:** مدة العرض
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** معلومات طريفة
+- Studio name (heading): استوديو جيبلي
+- Overview paragraph: استوديو جيبلي هو استوديو الرسوم المتحركة الياباني الأسطوري الذي يقف وراء أفلام محبوبة مثل المخطوفة، وجاري توتورو، والأميرة مونونوكي.
+- Button that opens the movies list: عرض الأفلام
+
+## Movies page
+
+- Page heading: أفلام استوديو جيبلي
+- Link back to the welcome page: العودة إلى الترحيب
+
+## Film detail labels
+
+- Director: المخرج
+- Release date: تاريخ الإصدار
+- Runtime: مدة العرض
+- Review score source: Rotten Tomatoes
+- Trivia section: معلومات طريفة
+
+## Application
+
+- Application name: استوديو جيبلي

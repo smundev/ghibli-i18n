@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli adalah studio animasi legendaris asal Jepang yang menggarap film-film tercinta seperti Spirited Away, My Neighbor Totoro, dan Princess Mononoke.
-- **welcome.cta:** Lihat Film
-- **movies.heading:** Film Studio Ghibli
-- **movies.back:** Kembali ke beranda
-- **film.director:** Sutradara
-- **film.released:** Rilis
-- **film.runtime:** Durasi
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** Trivia
+- Studio name (heading): Studio Ghibli
+- Overview paragraph: Studio Ghibli adalah studio animasi legendaris asal Jepang yang menggarap film-film tercinta seperti Spirited Away, My Neighbor Totoro, dan Princess Mononoke.
+- Button that opens the movies list: Lihat Film
+
+## Movies page
+
+- Page heading: Film Studio Ghibli
+- Link back to the welcome page: Kembali ke beranda
+
+## Film detail labels
+
+- Director: Sutradara
+- Release date: Rilis
+- Runtime: Durasi
+- Review score source: Rotten Tomatoes
+- Trivia section: Trivia
+
+## Application
+
+- Application name: Studio Ghibli

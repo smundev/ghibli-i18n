@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** 吉卜力工作室
-- **welcome.heading:** 吉卜力工作室
-- **welcome.overview:** 吉卜力工作室是日本传奇动画工作室，曾创作出《千与千寻》《龙猫》《幽灵公主》等深受喜爱的影片。
-- **welcome.cta:** 查看影片
-- **movies.heading:** 吉卜力工作室影片
-- **movies.back:** 返回欢迎页
-- **film.director:** 导演
-- **film.released:** 上映时间
-- **film.runtime:** 片长
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** 趣闻
+- Studio name (heading): 吉卜力工作室
+- Overview paragraph: 吉卜力工作室是日本传奇动画工作室，曾创作出《千与千寻》《龙猫》《幽灵公主》等深受喜爱的影片。
+- Button that opens the movies list: 查看影片
+
+## Movies page
+
+- Page heading: 吉卜力工作室影片
+- Link back to the welcome page: 返回欢迎页
+
+## Film detail labels
+
+- Director: 导演
+- Release date: 上映时间
+- Runtime: 片长
+- Review score source: Rotten Tomatoes
+- Trivia section: 趣闻
+
+## Application
+
+- Application name: 吉卜力工作室

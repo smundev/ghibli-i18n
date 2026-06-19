@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli är den legendariska japanska animationsstudion bakom älskade filmer som Spirited Away, Min granne Totoro och Prinsessan Mononoke.
-- **welcome.cta:** Visa filmer
-- **movies.heading:** Studio Ghiblis filmer
-- **movies.back:** Tillbaka till välkomstsidan
-- **film.director:** Regissör
-- **film.released:** Premiär
-- **film.runtime:** Speltid
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** Kuriosa
+- Studio name (heading): Studio Ghibli
+- Overview paragraph: Studio Ghibli är den legendariska japanska animationsstudion bakom älskade filmer som Spirited Away, Min granne Totoro och Prinsessan Mononoke.
+- Button that opens the movies list: Visa filmer
+
+## Movies page
+
+- Page heading: Studio Ghiblis filmer
+- Link back to the welcome page: Tillbaka till välkomstsidan
+
+## Film detail labels
+
+- Director: Regissör
+- Release date: Premiär
+- Runtime: Speltid
+- Review score source: Rotten Tomatoes
+- Trivia section: Kuriosa
+
+## Application
+
+- Application name: Studio Ghibli

@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Studio Ghibli
-- **welcome.heading:** Studio Ghibli
-- **welcome.overview:** Studio Ghibli, Ruhların Kaçışı, Komşum Totoro ve Prenses Mononoke gibi sevilen filmlerin arkasındaki efsanevi Japon animasyon stüdyosudur.
-- **welcome.cta:** Filmleri Görüntüle
-- **movies.heading:** Studio Ghibli Filmleri
-- **movies.back:** Karşılama sayfasına dön
-- **film.director:** Yönetmen
-- **film.released:** Yayın tarihi
-- **film.runtime:** Süre
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** İlginç bilgiler
+- Studio name (heading): Studio Ghibli
+- Overview paragraph: Studio Ghibli, Ruhların Kaçışı, Komşum Totoro ve Prenses Mononoke gibi sevilen filmlerin arkasındaki efsanevi Japon animasyon stüdyosudur.
+- Button that opens the movies list: Filmleri Görüntüle
+
+## Movies page
+
+- Page heading: Studio Ghibli Filmleri
+- Link back to the welcome page: Karşılama sayfasına dön
+
+## Film detail labels
+
+- Director: Yönetmen
+- Release date: Yayın tarihi
+- Runtime: Süre
+- Review score source: Rotten Tomatoes
+- Trivia section: İlginç bilgiler
+
+## Application
+
+- Application name: Studio Ghibli

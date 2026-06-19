@@ -9,16 +9,25 @@ kind: site
 > repository as translation source assets. They are **not** imported or read by
 > any application code. English is the only language the app currently serves.
 
-## Strings
+## Welcome page
 
-- **app.title:** Студия Гибли
-- **welcome.heading:** Студия Гибли
-- **welcome.overview:** Студия Гибли — это легендарная японская анимационная студия, создавшая такие любимые зрителями фильмы, как «Унесённые призраками», «Мой сосед Тоторо» и «Принцесса Мононоке».
-- **welcome.cta:** Смотреть фильмы
-- **movies.heading:** Фильмы студии Гибли
-- **movies.back:** Назад на главную
-- **film.director:** Режиссёр
-- **film.released:** Год выпуска
-- **film.runtime:** Продолжительность
-- **film.score:** Rotten Tomatoes
-- **film.trivia:** Интересные факты
+- Studio name (heading): Студия Гибли
+- Overview paragraph: Студия Гибли — это легендарная японская анимационная студия, создавшая такие любимые зрителями фильмы, как «Унесённые призраками», «Мой сосед Тоторо» и «Принцесса Мононоке».
+- Button that opens the movies list: Смотреть фильмы
+
+## Movies page
+
+- Page heading: Фильмы студии Гибли
+- Link back to the welcome page: Назад на главную
+
+## Film detail labels
+
+- Director: Режиссёр
+- Release date: Год выпуска
+- Runtime: Продолжительность
+- Review score source: Rotten Tomatoes
+- Trivia section: Интересные факты
+
+## Application
+
+- Application name: Студия Гибли
