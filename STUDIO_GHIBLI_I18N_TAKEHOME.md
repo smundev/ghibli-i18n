@@ -15,8 +15,8 @@ Translations are provided as Markdown under `/translations`: a general set for t
 A few things to keep in mind:
 
 - Only render the translations you've been given. Don't set up every movie with all 20 languages — render what each film actually has.
-- How you get the translations into the backend, structure them, and handle a film that lacks a requested language is up to you.
-- The current UI has no way to choose a language. Building that is part of the work — a language picker, flags, a menu, whatever fits. Expect UI changes, not just backend and data plumbing.
+- How you get the translations into the backend, structure them, and handle per film i18n is up to you.
+- You'll likely need to alter the UI to support i18n. Feel free to do so. 
 
 This is intentionally open-ended. There's no single right answer — we're interested in the judgment calls you make.
 
