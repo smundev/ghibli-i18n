@@ -1,33 +1,31 @@
 import { getRequestLogger } from "~/loggers";
 import { builder } from "~/schema";
-import { films } from "~/schemaModules/film/films.data";
-import { FilmRef } from "~/schemaModules/film/object-types.film-schema";
 
 builder.queryField("films", (t) =>
-  t.field({
-    type: [FilmRef],
+  t.prismaField({
+    type: ["Film"],
     nullable: false,
     description: "List all Studio Ghibli films.",
-    resolve: () => {
-      getRequestLogger().info({ count: films.length }, "Fetching all films");
+    resolve: (query, _root, _args, { prisma }) => {
+      getRequestLogger().info("Fetching all films");
 
-      return films;
+      return prisma.film.findMany({ ...query, orderBy: { title: "asc" } });
     },
   })
 );
 
 builder.queryField("film", (t) =>
-  t.field({
-    type: FilmRef,
+  t.prismaField({
+    type: "Film",
     nullable: true,
     description: "Fetch a single Studio Ghibli film by id.",
     args: {
       id: t.arg.id({ required: true }),
     },
-    resolve: (_root, { id }) => {
+    resolve: (query, _root, { id }, { prisma }) => {
       getRequestLogger().info({ id }, "Fetching film by id");
 
-      return films.find((film) => film.id === id) ?? null;
+      return prisma.film.findUnique({ ...query, where: { id: String(id) } });
     },
   })
 );

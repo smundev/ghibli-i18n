@@ -28,7 +28,7 @@ Throughout, the English labels are just context; only the values are translated.
 ## Per-film coverage
 
 Coverage is intentionally uneven and matches each film's `languages` field in the
-backend seed (`packages/backend/src/schemaModules/film/films.data.ts`).
+backend seed (`packages/backend/prisma/seed/films.data.ts`).
 
 | Film | Slug | # Languages | Languages |
 | ---- | ---- | ----------- | --------- |

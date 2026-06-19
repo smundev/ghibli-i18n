@@ -1,7 +1,7 @@
 /**
- * Local English-only seed data for the four featured films and six additional
- * Studio Ghibli titles. Sourced from the public Studio Ghibli dataset
- * (ghibliapi.vercel.app) and served directly — the API is not proxied at runtime.
+ * English-only seed data for ten Studio Ghibli films. This is a static dataset in
+ * the repository — no external API is called; the seed script loads these rows
+ * into the database (see seed.ts).
  *
  * `languages` lists the locales each film is translated into. Coverage is
  * intentionally uneven and mirrors the source material under `/translations`;

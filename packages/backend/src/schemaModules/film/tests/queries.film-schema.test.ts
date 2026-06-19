@@ -1,16 +1,21 @@
 import { GRAPHQL_PATH } from "~/config";
-import { films } from "~/schemaModules/film/films.data";
+import prisma from "~/prisma-client";
 import { createTestContext, type TestContext } from "~/tests/__helpers";
+import { films } from "../../../../prisma/seed/films.data";
 
 describe("film queries", () => {
   let ctx: TestContext;
 
   beforeAll(async () => {
+    await prisma.film.deleteMany();
+    await prisma.film.createMany({ data: films });
     ctx = await createTestContext();
   });
 
   afterAll(async () => {
+    await prisma.film.deleteMany();
     await ctx.stopServer();
+    await prisma.$disconnect();
   });
 
   it("should return every seeded film", async () => {
@@ -26,6 +31,8 @@ describe("film queries", () => {
             score
             image
             banner
+            tagline
+            trivia
             languages
           }
         }
@@ -36,7 +43,10 @@ describe("film queries", () => {
 
     expect(response.status).toBe(200);
     expect(response.body.data.films).toHaveLength(films.length);
-    expect(response.body.data.films[0].title).toBe(films[0].title);
+    const titles = response.body.data.films.map(
+      (film: { title: string }) => film.title
+    );
+    expect(titles).toEqual(expect.arrayContaining(films.map((f) => f.title)));
   });
 
   it("should return a single film by id", async () => {

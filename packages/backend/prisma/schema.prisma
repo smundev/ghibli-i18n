@@ -12,10 +12,19 @@ datasource db {
   provider = "postgresql"
 }
 
-model User {
-  id        Int     @id @default(autoincrement())
-  email     String  @unique
-  firstName String? @map("first_name")
+model Film {
+  id          String   @id
+  title       String
+  description String
+  tagline     String
+  director    String
+  releaseDate String   @map("release_date")
+  runtime     String
+  image       String
+  banner      String
+  score       String
+  trivia      String[]
+  languages   String[]
 
-  @@map("user")
+  @@map("film")
 }

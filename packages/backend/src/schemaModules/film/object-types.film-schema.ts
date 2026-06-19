@@ -1,7 +1,8 @@
 import { builder } from "~/schema";
-import type { Film } from "~/schemaModules/film/films.data";
 
-export const FilmRef = builder.objectRef<Film>("Film").implement({
+// Backed by the `Film` Prisma model. Every column is non-null, so the GraphQL
+// fields are exposed as non-null (`nullable: false`) to match.
+builder.prismaObject("Film", {
   description: "A Studio Ghibli film and its English details.",
   fields: (t) => ({
     id: t.exposeID("id", { nullable: false }),
