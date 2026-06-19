@@ -1,0 +1,17 @@
+---
+lang: ru
+film_id: 12cfb892-aac0-4c5b-94af-521852e46d6a
+---
+
+# Grave of the Fireflies (Russian)
+
+> **PLACEHOLDER — source material only.** These Markdown files ship with the
+> repository as translation source assets. They are **not** imported or read by
+> any application code. English is the only language the app currently serves.
+
+## Fields
+
+- **title:** Grave of the Fireflies
+- **description:** In the latter part of World War II, a boy and his sister, orphaned when their mother is killed in the firebombing of Tokyo, are left to survive on their own in what remains of civilian life in Japan. The plot follows this boy and his sister as they do their best to survive in the Japanese countryside, battling hunger, prejudice, and pride in their own quiet, personal battle.
+
+_Translate the English fields above into Russian._
