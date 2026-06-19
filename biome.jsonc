@@ -10,9 +10,16 @@
     // Ultracite core already force-ignores (!!) dist, generated, *.gen.*,
     // codegen, __generated__, lockfiles, coverage, etc. Add the repo-specific
     // generated/build dirs its list misses: the graphql-codegen output dir is
-    // literally named "gen" (packages/react-yoga/src/graphql/gen), and Vite's
-    // SSR build dir is dist-ssr.
-    "includes": ["!!**/gen", "!!**/dist-ssr", "!!**/mockServiceWorker.js"]
+    // literally named "gen" (packages/react-yoga/src/graphql/gen), Vite's SSR
+    // build dir is dist-ssr, and schema.graphql is emitted by the backend's
+    // `generate:schema` script (printSchema), whose formatting differs from
+    // Biome's GraphQL formatter.
+    "includes": [
+      "!!**/gen",
+      "!!**/dist-ssr",
+      "!!**/mockServiceWorker.js",
+      "!!**/schema.graphql"
+    ]
   },
   "overrides": [
     {
