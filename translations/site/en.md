@@ -21,3 +21,4 @@ kind: site
 - **film.released:** Released
 - **film.runtime:** Runtime
 - **film.score:** Rotten Tomatoes
+- **film.trivia:** Trivia

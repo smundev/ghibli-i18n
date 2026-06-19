@@ -10,8 +10,8 @@ application code imports or reads them** — the app serves English only.
 ## Structure
 
 - `site/<lang>.md` — general, static site copy. Provided for **all 20 languages**.
-- `films/<film-slug>/<lang>.md` — per-film copy, present only for the languages
-  that film supports.
+- `films/<film-slug>/<lang>.md` — per-film copy (title, tagline, description,
+  trivia), present only for the languages that film supports.
 
 ## Supported languages (20)
 

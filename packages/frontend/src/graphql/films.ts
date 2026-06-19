@@ -6,6 +6,8 @@ export const GET_FILMS = gql`
       id
       title
       description
+      tagline
+      trivia
       director
       releaseDate
       runtime

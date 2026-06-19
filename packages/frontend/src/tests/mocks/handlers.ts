@@ -6,6 +6,11 @@ const mockFilms = [
     title: "My Neighbor Totoro",
     description:
       "Two sisters move to the country and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest.",
+    tagline: "Two sisters meet the magical spirits of the forest.",
+    trivia: [
+      "Totoro became Studio Ghibli's mascot and appears in its logo.",
+      "Released in 1988 as a double feature with Grave of the Fireflies.",
+    ],
     director: "Hayao Miyazaki",
     releaseDate: "1988",
     runtime: "86",

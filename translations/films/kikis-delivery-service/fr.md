@@ -12,6 +12,11 @@ film_id: ea660b10-85c4-4ae3-8a5f-41cea3648e3e
 ## Fields
 
 - **title:** Kiki's Delivery Service
+- **tagline:** A young witch finds her place in the world.
 - **description:** A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.
+- **trivia:**
+  - Adapted from Eiko Kadono's 1985 children's novel.
+  - The seaside town Koriko was inspired by Stockholm and Visby in Sweden.
+  - Kiki's black cat Jiji is one of Ghibli's best-loved sidekicks.
 
 _Translate the English fields above into French._

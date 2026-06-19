@@ -78,8 +78,16 @@ const FilmCard = ({ film }: FilmCardProps) => (
   <Card>
     <Poster alt={film.title} src={film.image} />
     <CardContent>
-      <Typography component="h2" gutterBottom variant="h6">
+      <Typography component="h2" variant="h6">
         {film.title}
+      </Typography>
+      <Typography
+        color="text.secondary"
+        fontStyle="italic"
+        gutterBottom
+        variant="subtitle2"
+      >
+        {film.tagline}
       </Typography>
       <DetailList>
         <DetailRow label="Director" value={film.director} />
@@ -87,11 +95,31 @@ const FilmCard = ({ film }: FilmCardProps) => (
         <DetailRow label="Runtime" value={`${film.runtime} min`} />
         <DetailRow label="Rotten Tomatoes" value={`${film.score}%`} />
       </DetailList>
-      <Typography color="text.secondary" variant="body2">
+      <Typography color="text.secondary" gutterBottom variant="body2">
         {film.description}
       </Typography>
+      <Trivia items={film.trivia} />
     </CardContent>
   </Card>
+);
+
+interface TriviaProps {
+  items: readonly string[];
+}
+
+const Trivia = ({ items }: TriviaProps) => (
+  <section>
+    <Typography component="h3" fontWeight={700} variant="body2">
+      Trivia
+    </Typography>
+    <TriviaList>
+      {items.map((item) => (
+        <Typography component="li" key={item} variant="body2">
+          {item}
+        </Typography>
+      ))}
+    </TriviaList>
+  </section>
 );
 
 interface DetailRowProps {
@@ -145,6 +173,16 @@ const DetailList = styled("dl")(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
   gap: theme.spacing(0.5),
+}));
+
+const TriviaList = styled("ul")(({ theme }) => ({
+  margin: 0,
+  marginTop: theme.spacing(0.5),
+  paddingLeft: theme.spacing(2.5),
+  display: "flex",
+  flexDirection: "column",
+  gap: theme.spacing(0.5),
+  color: theme.palette.text.secondary,
 }));
 
 export default Movies;

@@ -7,6 +7,14 @@ export const FilmRef = builder.objectRef<Film>("Film").implement({
     id: t.exposeID("id", { nullable: false }),
     title: t.exposeString("title", { nullable: false }),
     description: t.exposeString("description", { nullable: false }),
+    tagline: t.exposeString("tagline", {
+      nullable: false,
+      description: "Short, one-line tagline.",
+    }),
+    trivia: t.exposeStringList("trivia", {
+      nullable: false,
+      description: "A few short pieces of trivia about the film.",
+    }),
     director: t.exposeString("director", { nullable: false }),
     releaseDate: t.exposeString("releaseDate", {
       nullable: false,

@@ -23,7 +23,13 @@ type Film {
 
   """Rotten Tomatoes score, e.g. "97"."""
   score: String!
+
+  """Short, one-line tagline."""
+  tagline: String!
   title: String!
+
+  """A few short pieces of trivia about the film."""
+  trivia: [String!]!
 }
 
 type Query {

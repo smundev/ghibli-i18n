@@ -36,7 +36,11 @@ export type Film = {
   runtime: Scalars['String']['output'];
   /** Rotten Tomatoes score, e.g. "97". */
   score: Scalars['String']['output'];
+  /** Short, one-line tagline. */
+  tagline: Scalars['String']['output'];
   title: Scalars['String']['output'];
+  /** A few short pieces of trivia about the film. */
+  trivia: Array<Scalars['String']['output']>;
 };
 
 export type Query = {
@@ -55,7 +59,7 @@ export type QueryFilmArgs = {
 export type GetFilmsQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetFilmsQuery = { films: Array<{ id: string, title: string, description: string, director: string, releaseDate: string, runtime: string, image: string, banner: string, score: string, languages: Array<string> }> };
+export type GetFilmsQuery = { films: Array<{ id: string, title: string, description: string, tagline: string, trivia: Array<string>, director: string, releaseDate: string, runtime: string, image: string, banner: string, score: string, languages: Array<string> }> };
 
 
 export const GetFilmsDocument = gql`
@@ -64,6 +68,8 @@ export const GetFilmsDocument = gql`
     id
     title
     description
+    tagline
+    trivia
     director
     releaseDate
     runtime

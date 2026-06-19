@@ -12,6 +12,11 @@ film_id: 58611129-2dbc-4a81-a72f-77ddfc1b1b49
 ## Fields
 
 - **title:** My Neighbor Totoro
+- **tagline:** Two sisters meet the magical spirits of the forest.
 - **description:** Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.
+- **trivia:**
+  - Totoro became Studio Ghibli's mascot and appears in its logo.
+  - Released in 1988 as a double feature with Grave of the Fireflies.
+  - The Catbus is among the most iconic creatures in Japanese animation.
 
 _Translate the English fields above into German._
