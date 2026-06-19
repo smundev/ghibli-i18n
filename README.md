@@ -9,8 +9,14 @@ in **English only**:
   release date, runtime, score, and trivia) from a GraphQL backend.
 
 Your job is to make the site **internationalization-ready**, using the translation
-source material provided under [`translations/`](./translations). The full brief —
-goals, what we're evaluating, and how to submit — is in the assignment:
+source material provided under [`translations/`](./translations).
+
+This is a full-stack exercise: alongside backend and data work, the UI will likely
+need new pieces too — for example, a way for users to choose a language (a language
+picker, flags, a menu, etc.), since the app has none today.
+
+The full brief — goals, what we're evaluating, and how to submit — is in the
+assignment:
 
 📋 **[Assignment instructions → `STUDIO_GHIBLI_I18N_TAKEHOME.md`](./STUDIO_GHIBLI_I18N_TAKEHOME.md)**
 
@@ -41,46 +47,57 @@ A [pnpm workspace](https://pnpm.io/workspaces) monorepo with two packages:
 
 ## Getting started
 
-From the repository root:
+This walks through running the app from a clean checkout. You need the tools in
+[System requirements](#system-requirements) installed first, and **Docker must be
+running** (it hosts the database). Every command is typed into a terminal; unless a
+step says otherwise, run it from the repository root.
+
+The app is two long-running processes — the backend and the frontend — so you'll
+use **two terminal windows** and leave both running.
+
+### 1. Install Node and dependencies
 
 ```bash
-# 1. Use the pinned Node version
-nvm install && nvm use        # or install Node 24.7.0 another way
-
-# 2. Install all workspace dependencies (one install for both packages)
-pnpm install
+nvm install && nvm use   # switch to Node 24.7.0 (skip if you installed it another way)
+node --version           # should print "v24.7.0"
+pnpm install             # install dependencies for both packages in one step
 ```
 
-### Run the backend (terminal 1)
+### 2. Start the backend — terminal 1
 
 ```bash
-# from the repo root: start the PostgreSQL database
-docker compose up -d
+docker compose up -d           # start the PostgreSQL database (Docker must be running)
 
 cd packages/backend
-cp .env.example .env           # local config (PORT 8080, /api/graphql, DATABASE_URL)
-pnpm generate                  # generate the Prisma client + schema.graphql
+cp .env.example .env           # create local settings (server port, database URL)
+pnpm generate                  # generate the Prisma client and the GraphQL schema file
 pnpm migrate                   # create the database tables
 pnpm seed                      # load the ten films into the database
-pnpm dev                       # start the GraphQL server
+pnpm dev                       # start the GraphQL server — leave this running
 ```
 
-The API is now at **http://localhost:8080/api/graphql** (open it in a browser for
-the GraphiQL explorer).
+When it's up, the API is at **http://localhost:8080/api/graphql**. Open that URL in
+a browser to explore it with the built-in GraphiQL playground.
 
-### Run the frontend (terminal 2)
+### 3. Start the frontend — terminal 2
+
+Open a **second** terminal (leave the backend running in the first one):
 
 ```bash
 cd packages/frontend
-cp .env.example .env           # contains VITE_GRAPHQL_URL pointing at the backend
-pnpm dev                       # starts the Vite dev server
+cp .env.example .env           # points the app at the backend (VITE_GRAPHQL_URL)
+pnpm dev                       # start the web app — leave this running
 ```
 
-Open **http://localhost:3000** — the Welcome screen loads; "View Movies" navigates
-to the Movies screen, which fetches the films from the backend.
+### 4. Open the app
 
-> The frontend's generated GraphQL hooks are committed, so it runs without a
-> codegen step. After changing a GraphQL operation, run `pnpm codegen` (from
+Visit **http://localhost:3000**. You should see the Welcome screen; clicking
+**View Movies** opens the Movies screen with the ten films loaded from the backend.
+If the films appear, the frontend and backend are talking to each other and you're
+all set.
+
+> The frontend's generated GraphQL hooks are committed, so it runs without a codegen
+> step. After you change a GraphQL operation, run `pnpm codegen` (from
 > `packages/frontend`) to regenerate them.
 
 ## How film data is served
