@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "スタジオジブリ",
+    "heroHeadline": "迷い込む価値のある世界",
+    "overview": "スタジオジブリは、『千と千尋の神隠し』『となりのトトロ』『もののけ姫』といった愛される作品を生み出してきた、日本を代表する伝説的なアニメーションスタジオです。手描きの美しさ、豊かな想像力に満ちた世界、そして心に響く物語で高く評価されています。",
+    "overviewSecondary": "スタジオの作品の数々を見て、その詳細を探ってみましょう。",
+    "viewMovies": "作品を見る"
+  },
+  "movies": {
+    "heading": "スタジオジブリ作品",
+    "subtitle": "空と、森と、遥かな地をめぐる、十の物語。",
+    "backToWelcome": "ようこそ画面に戻る",
+    "loadError": "作品を読み込めませんでした。",
+    "retry": "もう一度試す"
+  },
+  "film": {
+    "director": "監督",
+    "releaseDate": "公開年",
+    "runtime": "上映時間",
+    "runtimeUnit": "分",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "豆知識"
+  },
+  "notFound": {
+    "backHome": "ホームに戻る"
+  },
+  "error": {
+    "heading": "おっと！",
+    "message": "申し訳ありません。予期しないエラーが発生しました。",
+    "unknown": "不明なエラー"
+  },
+  "app": {
+    "name": "スタジオジブリ",
+    "description": "スタジオジブリの作品を探索しましょう。タイトル、詳細、豆知識をご紹介します。"
+  }
+}

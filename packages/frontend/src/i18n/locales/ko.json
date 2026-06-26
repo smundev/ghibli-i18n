@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "스튜디오 지브리",
+    "heroHeadline": "길을 잃을 만한 가치가 있는 세계",
+    "overview": "스튜디오 지브리는 센과 치히로의 행방불명, 이웃집 토토로, 모노노케 히메와 같은 사랑받는 작품들을 만든 전설적인 일본 애니메이션 스튜디오로, 손으로 그린 작화와 풍부한 상상력으로 빚어낸 세계, 그리고 진심 어린 이야기로 사랑받고 있습니다.",
+    "overviewSecondary": "스튜디오의 작품들을 둘러보고 자세한 정보를 살펴보세요.",
+    "viewMovies": "영화 보기"
+  },
+  "movies": {
+    "heading": "스튜디오 지브리 영화",
+    "subtitle": "비상과 숲, 그리고 머나먼 곳에 관한 열 편의 이야기.",
+    "backToWelcome": "환영 화면으로 돌아가기",
+    "loadError": "작품을 불러오지 못했습니다.",
+    "retry": "다시 시도"
+  },
+  "film": {
+    "director": "감독",
+    "releaseDate": "개봉",
+    "runtime": "상영 시간",
+    "runtimeUnit": "분",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "비하인드 스토리"
+  },
+  "notFound": {
+    "backHome": "홈으로 돌아가기"
+  },
+  "error": {
+    "heading": "이런!",
+    "message": "죄송합니다. 예기치 못한 오류가 발생했습니다.",
+    "unknown": "알 수 없는 오류"
+  },
+  "app": {
+    "name": "스튜디오 지브리",
+    "description": "스튜디오 지브리의 작품들을 만나보세요 — 제목, 상세 정보, 그리고 흥미로운 이야기까지."
+  }
+}

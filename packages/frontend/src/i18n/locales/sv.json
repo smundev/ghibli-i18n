@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Världar värda att gå vilse i",
+    "overview": "Studio Ghibli är den legendariska japanska animationsstudion bakom älskade filmer som Spirited Away, My Neighbor Totoro och Princess Mononoke — hyllad för sin handtecknade konstnärlighet, sina rikt fantasifulla världar och sitt känslosamma berättande.",
+    "overviewSecondary": "Bläddra bland ett urval av studions filmer och utforska deras detaljer.",
+    "viewMovies": "Visa filmer"
+  },
+  "movies": {
+    "heading": "Studio Ghiblis filmer",
+    "subtitle": "Tio berättelser om flykt, skogar och fjärran platser.",
+    "backToWelcome": "Tillbaka till välkomstsidan",
+    "loadError": "Vi kunde inte ladda filmerna.",
+    "retry": "Försök igen"
+  },
+  "film": {
+    "director": "Regissör",
+    "releaseDate": "Premiär",
+    "runtime": "Speltid",
+    "runtimeUnit": "min",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Kuriosa"
+  },
+  "notFound": {
+    "backHome": "Gå tillbaka till startsidan"
+  },
+  "error": {
+    "heading": "Hoppsan!",
+    "message": "Tyvärr har ett oväntat fel inträffat.",
+    "unknown": "Okänt fel"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Utforska Studio Ghiblis filmer — titlar, detaljer och kuriosa."
+  }
+}

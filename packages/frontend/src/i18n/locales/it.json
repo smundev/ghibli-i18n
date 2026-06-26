@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Mondi in cui vale la pena perdersi",
+    "overview": "Studio Ghibli è il leggendario studio di animazione giapponese autore di film amatissimi come La città incantata, Il mio vicino Totoro e Principessa Mononoke — celebrato per il suo disegno a mano, i mondi riccamente immaginati e le storie ricche di emozione.",
+    "overviewSecondary": "Sfoglia una selezione dei film dello studio ed esplorane i dettagli.",
+    "viewMovies": "Guarda i film"
+  },
+  "movies": {
+    "heading": "I film dello Studio Ghibli",
+    "subtitle": "Dieci storie di voli, foreste e luoghi lontani.",
+    "backToWelcome": "Torna alla pagina iniziale",
+    "loadError": "Non siamo riusciti a caricare i film.",
+    "retry": "Riprova"
+  },
+  "film": {
+    "director": "Regista",
+    "releaseDate": "Uscita",
+    "runtime": "Durata",
+    "runtimeUnit": "min",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Curiosità"
+  },
+  "notFound": {
+    "backHome": "Torna alla home"
+  },
+  "error": {
+    "heading": "Ops!",
+    "message": "Spiacenti, si è verificato un errore imprevisto.",
+    "unknown": "Errore sconosciuto"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Esplora i film dello Studio Ghibli — titoli, dettagli e curiosità."
+  }
+}

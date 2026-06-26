@@ -1,4 +1,5 @@
 import { Skeleton, styled } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import type { GetFilmsQuery } from "~/graphql/gen/graphql";
 
 type FilmSummary = GetFilmsQuery["films"][number];
@@ -7,25 +8,32 @@ interface FilmCardProps {
   film: FilmSummary;
 }
 
-export const FilmCard = ({ film }: FilmCardProps) => (
-  <FilmCardRoot>
-    <PosterWrap>
-      <Poster alt={film.title} src={film.image} />
-      <ScoreBadge>★ {film.score}%</ScoreBadge>
-    </PosterWrap>
-    <Body>
-      <FilmTitle>{film.title}</FilmTitle>
-      <Tagline>{film.tagline}</Tagline>
-      <MetaRow>
-        <Meta label="Director" value={film.director} />
-        <Meta label="Released" value={film.releaseDate} />
-        <Meta label="Runtime" value={`${film.runtime} min`} />
-      </MetaRow>
-      <Description>{film.description}</Description>
-      <Trivia items={film.trivia} />
-    </Body>
-  </FilmCardRoot>
-);
+export const FilmCard = ({ film }: FilmCardProps) => {
+  const { t } = useTranslation();
+
+  return (
+    <FilmCardRoot>
+      <PosterWrap>
+        <Poster alt={film.title} src={film.image} />
+        <ScoreBadge title={t("film.scoreSource")}>★ {film.score}%</ScoreBadge>
+      </PosterWrap>
+      <Body>
+        <FilmTitle>{film.title}</FilmTitle>
+        <Tagline>{film.tagline}</Tagline>
+        <MetaRow>
+          <Meta label={t("film.director")} value={film.director} />
+          <Meta label={t("film.releaseDate")} value={film.releaseDate} />
+          <Meta
+            label={t("film.runtime")}
+            value={`${film.runtime} ${t("film.runtimeUnit")}`}
+          />
+        </MetaRow>
+        <Description>{film.description}</Description>
+        <Trivia items={film.trivia} />
+      </Body>
+    </FilmCardRoot>
+  );
+};
 
 export const FilmCardSkeleton = () => (
   <FilmCardRoot>
@@ -56,16 +64,20 @@ interface TriviaProps {
   items: readonly string[];
 }
 
-const Trivia = ({ items }: TriviaProps) => (
-  <section>
-    <TriviaHeading>Trivia</TriviaHeading>
-    <TriviaList>
-      {items.map((item) => (
-        <li key={item}>{item}</li>
-      ))}
-    </TriviaList>
-  </section>
-);
+const Trivia = ({ items }: TriviaProps) => {
+  const { t } = useTranslation();
+
+  return (
+    <section>
+      <TriviaHeading>{t("film.trivia")}</TriviaHeading>
+      <TriviaList>
+        {items.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </TriviaList>
+    </section>
+  );
+};
 
 const FilmCardRoot = styled("article")(({ theme }) => ({
   display: "flex",

@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Worlds worth getting lost in",
+    "overview": "Studio Ghibli is the legendary Japanese animation studio behind beloved films such as Spirited Away, My Neighbor Totoro, and Princess Mononoke — celebrated for its hand-drawn artistry, richly imagined worlds, and heartfelt storytelling.",
+    "overviewSecondary": "Browse a selection of the studio's films and explore their details.",
+    "viewMovies": "View Movies"
+  },
+  "movies": {
+    "heading": "Studio Ghibli Films",
+    "subtitle": "Ten tales of flight, forests, and far-off places.",
+    "backToWelcome": "Back to welcome",
+    "loadError": "We couldn't load the films.",
+    "retry": "Try again"
+  },
+  "film": {
+    "director": "Director",
+    "releaseDate": "Released",
+    "runtime": "Runtime",
+    "runtimeUnit": "min",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Trivia"
+  },
+  "notFound": {
+    "backHome": "Go back home"
+  },
+  "error": {
+    "heading": "Oops!",
+    "message": "Sorry, an unexpected error has occurred.",
+    "unknown": "Unknown error"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Explore the films of Studio Ghibli — titles, details, and trivia."
+  }
+}

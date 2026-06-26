@@ -4,8 +4,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "~/App.tsx";
 import apolloClient from "~/apollo";
+import { DEFAULT_LOCALE } from "~/i18n";
 import { globalStyles } from "~/shared/styles/global";
 import { theme } from "~/shared/styles/theme";
+
+document.documentElement.lang = DEFAULT_LOCALE;
 
 const enableMocking = async () => {
   if (import.meta.env.MODE !== "test") {

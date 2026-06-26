@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "吉卜力工作室",
+    "heroHeadline": "值得沉醉其中的世界",
+    "overview": "吉卜力工作室是传奇的日本动画工作室，缔造了《千与千寻》《龙猫》《幽灵公主》等深受喜爱的影片——以其手绘的艺术之美、想象丰富的世界和真挚动人的故事而备受赞誉。",
+    "overviewSecondary": "浏览本工作室的精选影片，探索它们的详情。",
+    "viewMovies": "查看影片"
+  },
+  "movies": {
+    "heading": "吉卜力工作室影片",
+    "subtitle": "十段关于飞翔、森林与远方的故事。",
+    "backToWelcome": "返回欢迎页",
+    "loadError": "我们无法加载这些影片。",
+    "retry": "重试"
+  },
+  "film": {
+    "director": "导演",
+    "releaseDate": "上映时间",
+    "runtime": "片长",
+    "runtimeUnit": "分钟",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "趣闻"
+  },
+  "notFound": {
+    "backHome": "返回首页"
+  },
+  "error": {
+    "heading": "哎呀！",
+    "message": "抱歉，发生了意外错误。",
+    "unknown": "未知错误"
+  },
+  "app": {
+    "name": "吉卜力工作室",
+    "description": "探索吉卜力工作室的影片——片名、详情与趣闻。"
+  }
+}

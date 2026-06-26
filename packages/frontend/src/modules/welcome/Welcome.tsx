@@ -1,32 +1,30 @@
 import { Box, Button, Stack, styled, Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { HeroBackground } from "./components/HeroBackground";
 
-const Welcome = () => (
-  <Hero>
-    <HeroBackground />
-    <HeroCard>
-      <Stack gap={2.5}>
-        <Kicker>Studio Ghibli</Kicker>
-        <Title>Worlds worth getting lost in</Title>
-        <Lead>
-          Studio Ghibli is the legendary Japanese animation studio behind
-          beloved films such as Spirited Away, My Neighbor Totoro, and Princess
-          Mononoke — celebrated for its hand-drawn artistry, richly imagined
-          worlds, and heartfelt storytelling.
-        </Lead>
-        <Lead>
-          Browse a selection of the studio's films and explore their details.
-        </Lead>
-        <Box>
-          <Button component={Link} to="/movies" variant="contained">
-            View Movies →
-          </Button>
-        </Box>
-      </Stack>
-    </HeroCard>
-  </Hero>
-);
+const Welcome = () => {
+  const { t } = useTranslation();
+
+  return (
+    <Hero>
+      <HeroBackground />
+      <HeroCard>
+        <Stack gap={2.5}>
+          <Kicker>{t("welcome.studioName")}</Kicker>
+          <Title>{t("welcome.heroHeadline")}</Title>
+          <Lead>{t("welcome.overview")}</Lead>
+          <Lead>{t("welcome.overviewSecondary")}</Lead>
+          <Box>
+            <Button component={Link} to="/movies" variant="contained">
+              {t("welcome.viewMovies")} →
+            </Button>
+          </Box>
+        </Stack>
+      </HeroCard>
+    </Hero>
+  );
+};
 
 const Hero = styled("section")(({ theme }) => ({
   position: "relative",

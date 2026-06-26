@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Mundos en los que vale la pena perderse",
+    "overview": "Studio Ghibli es el legendario estudio de animación japonés responsable de películas tan queridas como El viaje de Chihiro, Mi vecino Totoro y La princesa Mononoke, célebre por su arte dibujado a mano, sus mundos imaginados con gran riqueza y sus historias llenas de sentimiento.",
+    "overviewSecondary": "Explora una selección de las películas del estudio y descubre sus detalles.",
+    "viewMovies": "Ver películas"
+  },
+  "movies": {
+    "heading": "Películas de Studio Ghibli",
+    "subtitle": "Diez historias de vuelos, bosques y lugares lejanos.",
+    "backToWelcome": "Volver a la bienvenida",
+    "loadError": "No pudimos cargar las películas.",
+    "retry": "Inténtalo de nuevo"
+  },
+  "film": {
+    "director": "Director",
+    "releaseDate": "Estreno",
+    "runtime": "Duración",
+    "runtimeUnit": "min",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Curiosidades"
+  },
+  "notFound": {
+    "backHome": "Volver al inicio"
+  },
+  "error": {
+    "heading": "¡Vaya!",
+    "message": "Lo sentimos, se ha producido un error inesperado.",
+    "unknown": "Error desconocido"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Explora las películas de Studio Ghibli: títulos, detalles y curiosidades."
+  }
+}

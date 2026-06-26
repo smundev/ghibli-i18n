@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "İçinde kaybolmaya değer dünyalar",
+    "overview": "Studio Ghibli, Ruhların Kaçışı, Komşum Totoro ve Prenses Mononoke gibi sevilen filmlerin arkasındaki efsanevi Japon animasyon stüdyosudur — elle çizilmiş sanatı, zengin hayal gücüyle kurulmuş dünyaları ve içten hikâye anlatımıyla beğeni toplar.",
+    "overviewSecondary": "Stüdyonun filmlerinden bir seçkiye göz atın ve ayrıntılarını keşfedin.",
+    "viewMovies": "Filmleri Görüntüle"
+  },
+  "movies": {
+    "heading": "Studio Ghibli Filmleri",
+    "subtitle": "Uçuşun, ormanların ve uzak diyarların on hikâyesi.",
+    "backToWelcome": "Karşılama sayfasına dön",
+    "loadError": "Filmleri yükleyemedik.",
+    "retry": "Tekrar dene"
+  },
+  "film": {
+    "director": "Yönetmen",
+    "releaseDate": "Yayın tarihi",
+    "runtime": "Süre",
+    "runtimeUnit": "dk",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "İlginç bilgiler"
+  },
+  "notFound": {
+    "backHome": "Ana sayfaya dön"
+  },
+  "error": {
+    "heading": "Eyvah!",
+    "message": "Üzgünüz, beklenmeyen bir hata oluştu.",
+    "unknown": "Bilinmeyen hata"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Studio Ghibli filmlerini keşfedin — başlıklar, ayrıntılar ve ilginç bilgiler."
+  }
+}

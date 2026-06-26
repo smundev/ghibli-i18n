@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Światy, w których warto się zagubić",
+    "overview": "Studio Ghibli to legendarne japońskie studio animacji, twórca uwielbianych filmów takich jak W krainie bogów, Mój sąsiad Totoro i Księżniczka Mononoke — cenione za rysunki tworzone ręcznie, bogato wykreowane światy i poruszające serce opowieści.",
+    "overviewSecondary": "Przeglądaj wybór filmów studia i poznaj ich szczegóły.",
+    "viewMovies": "Zobacz filmy"
+  },
+  "movies": {
+    "heading": "Filmy Studia Ghibli",
+    "subtitle": "Dziesięć opowieści o lataniu, lasach i dalekich krainach.",
+    "backToWelcome": "Powrót do strony powitalnej",
+    "loadError": "Nie udało nam się załadować filmów.",
+    "retry": "Spróbuj ponownie"
+  },
+  "film": {
+    "director": "Reżyser",
+    "releaseDate": "Premiera",
+    "runtime": "Czas trwania",
+    "runtimeUnit": "min",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Ciekawostki"
+  },
+  "notFound": {
+    "backHome": "Wróć na stronę główną"
+  },
+  "error": {
+    "heading": "Ojej!",
+    "message": "Przepraszamy, wystąpił nieoczekiwany błąd.",
+    "unknown": "Nieznany błąd"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Poznaj filmy Studio Ghibli — tytuły, szczegóły i ciekawostki."
+  }
+}
