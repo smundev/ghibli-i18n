@@ -26,5 +26,25 @@ model Film {
   trivia      String[]
   languages   String[]
 
+  translations FilmTranslation[]
+
   @@map("film")
+}
+
+// Per-locale copy for a film. One row per (film, locale); English is stored as a
+// row too, so it isn't a special case. Coverage is uneven by design — a film only
+// has rows for the locales it's actually translated into. Locale-invariant fields
+// (image, score, runtime, etc.) stay on `Film` and are not duplicated here.
+model FilmTranslation {
+  filmId      String   @map("film_id")
+  locale      String
+  title       String
+  tagline     String
+  description String
+  trivia      String[]
+
+  film Film @relation(fields: [filmId], references: [id], onDelete: Cascade)
+
+  @@id([filmId, locale])
+  @@map("film_translation")
 }

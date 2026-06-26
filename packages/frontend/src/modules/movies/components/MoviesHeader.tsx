@@ -1,13 +1,18 @@
 import { styled } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export const MoviesHeader = () => (
-  <HeaderWrap>
-    <BackLink to="/">← Back to welcome</BackLink>
-    <PageTitle>Studio Ghibli Films</PageTitle>
-    <Subtitle>Ten tales of flight, forests, and far-off places.</Subtitle>
-  </HeaderWrap>
-);
+export const MoviesHeader = () => {
+  const { t } = useTranslation();
+
+  return (
+    <HeaderWrap>
+      <BackLink to="/">← {t("movies.backToWelcome")}</BackLink>
+      <PageTitle>{t("movies.heading")}</PageTitle>
+      <Subtitle>{t("movies.subtitle")}</Subtitle>
+    </HeaderWrap>
+  );
+};
 
 const HeaderWrap = styled("header")(({ theme }) => ({
   display: "flex",

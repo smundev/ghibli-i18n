@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Dunia-dunia yang layak untuk dijelajahi hingga lupa diri",
+    "overview": "Studio Ghibli adalah studio animasi Jepang legendaris di balik film-film tercinta seperti Spirited Away, My Neighbor Totoro, dan Princess Mononoke — dipuji karena seni gambar tangannya, dunia-dunia yang penuh imajinasi, dan penceritaan yang menyentuh hati.",
+    "overviewSecondary": "Jelajahi pilihan film-film studio ini dan telusuri detailnya.",
+    "viewMovies": "Lihat Film"
+  },
+  "movies": {
+    "heading": "Film Studio Ghibli",
+    "subtitle": "Sepuluh kisah tentang terbang, hutan, dan tempat-tempat nan jauh.",
+    "backToWelcome": "Kembali ke beranda",
+    "loadError": "Kami tidak dapat memuat film-filmnya.",
+    "retry": "Coba lagi"
+  },
+  "film": {
+    "director": "Sutradara",
+    "releaseDate": "Rilis",
+    "runtime": "Durasi",
+    "runtimeUnit": "mnt",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Trivia"
+  },
+  "notFound": {
+    "backHome": "Kembali ke beranda"
+  },
+  "error": {
+    "heading": "Aduh!",
+    "message": "Maaf, terjadi kesalahan yang tidak terduga.",
+    "unknown": "Kesalahan tidak dikenal"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Jelajahi film-film Studio Ghibli — judul, detail, dan trivia."
+  }
+}

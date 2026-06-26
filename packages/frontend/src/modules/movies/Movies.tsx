@@ -1,4 +1,5 @@
 import { Button, styled, Typography } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { useGetFilmsQuery } from "~/graphql/gen/graphql";
 import { FilmCard, FilmCardSkeleton } from "./components/FilmCard";
 import { MoviesHeader } from "./components/MoviesHeader";
@@ -6,7 +7,10 @@ import { MoviesHeader } from "./components/MoviesHeader";
 const SKELETON_KEYS = ["s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8"];
 
 const Movies = () => {
-  const { loading, error, data, refetch } = useGetFilmsQuery();
+  const { t, i18n } = useTranslation();
+  const { loading, error, data, refetch } = useGetFilmsQuery({
+    variables: { locale: i18n.language },
+  });
 
   if (loading) {
     return (
@@ -26,12 +30,12 @@ const Movies = () => {
       <Page>
         <MoviesHeader />
         <ErrorPanel>
-          <Typography variant="body1">We couldn't load the films.</Typography>
+          <Typography variant="body1">{t("movies.loadError")}</Typography>
           <Typography color="text.secondary" variant="body2">
             {error.message}
           </Typography>
           <Button onClick={() => refetch()} variant="contained">
-            Try again
+            {t("movies.retry")}
           </Button>
         </ErrorPanel>
       </Page>

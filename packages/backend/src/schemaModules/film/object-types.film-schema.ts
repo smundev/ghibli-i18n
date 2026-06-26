@@ -1,9 +1,12 @@
 import { builder } from "~/schema";
 
 // Backed by the `Film` Prisma model. Every column is non-null, so the GraphQL
-// fields are exposed as non-null (`nullable: false`) to match.
+// fields are exposed as non-null (`nullable: false`) to match. The translatable
+// fields (title, tagline, description, trivia) are resolved for the locale
+// requested on the `films`/`film` query; see `localize.ts`.
 builder.prismaObject("Film", {
-  description: "A Studio Ghibli film and its English details.",
+  description:
+    "A Studio Ghibli film, with copy localized to the requested locale.",
   fields: (t) => ({
     id: t.exposeID("id", { nullable: false }),
     title: t.exposeString("title", { nullable: false }),

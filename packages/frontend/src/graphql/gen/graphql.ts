@@ -18,7 +18,7 @@ export type Scalars = {
   Date: { input: unknown; output: unknown; }
 };
 
-/** A Studio Ghibli film and its English details. */
+/** A Studio Ghibli film, with copy localized to the requested locale. */
 export type Film = {
   __typename?: 'Film';
   /** Wide banner image URL. */
@@ -54,17 +54,25 @@ export type Query = {
 
 export type QueryFilmArgs = {
   id: Scalars['ID']['input'];
+  locale?: InputMaybe<Scalars['String']['input']>;
 };
 
-export type GetFilmsQueryVariables = Exact<{ [key: string]: never; }>;
+
+export type QueryFilmsArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type GetFilmsQueryVariables = Exact<{
+  locale?: string | null | undefined;
+}>;
 
 
 export type GetFilmsQuery = { films: Array<{ id: string, title: string, description: string, tagline: string, trivia: Array<string>, director: string, releaseDate: string, runtime: string, image: string, banner: string, score: string, languages: Array<string> }> };
 
 
 export const GetFilmsDocument = gql`
-    query GetFilms {
-  films {
+    query GetFilms($locale: String) {
+  films(locale: $locale) {
     id
     title
     description
@@ -93,6 +101,7 @@ export const GetFilmsDocument = gql`
  * @example
  * const { data, loading, error } = useGetFilmsQuery({
  *   variables: {
+ *      locale: // value for 'locale'
  *   },
  * });
  */

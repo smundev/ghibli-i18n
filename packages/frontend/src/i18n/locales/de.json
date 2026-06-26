@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Welten, in denen man sich gerne verliert",
+    "overview": "Studio Ghibli ist das legendäre japanische Animationsstudio hinter beliebten Filmen wie Chihiros Reise ins Zauberland, Mein Nachbar Totoro und Prinzessin Mononoke — gefeiert für seine handgezeichnete Kunstfertigkeit, fantasievoll gestalteten Welten und sein gefühlvolles Erzählen.",
+    "overviewSecondary": "Stöbern Sie durch eine Auswahl der Filme des Studios und entdecken Sie ihre Details.",
+    "viewMovies": "Filme ansehen"
+  },
+  "movies": {
+    "heading": "Studio-Ghibli-Filme",
+    "subtitle": "Zehn Geschichten von Höhenflügen, Wäldern und fernen Orten.",
+    "backToWelcome": "Zurück zur Startseite",
+    "loadError": "Die Filme konnten nicht geladen werden.",
+    "retry": "Erneut versuchen"
+  },
+  "film": {
+    "director": "Regie",
+    "releaseDate": "Veröffentlicht",
+    "runtime": "Laufzeit",
+    "runtimeUnit": "Min.",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Wissenswertes"
+  },
+  "notFound": {
+    "backHome": "Zurück zur Startseite"
+  },
+  "error": {
+    "heading": "Hoppla!",
+    "message": "Entschuldigung, ein unerwarteter Fehler ist aufgetreten.",
+    "unknown": "Unbekannter Fehler"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Entdecken Sie die Filme von Studio Ghibli — Titel, Details und Wissenswertes."
+  }
+}

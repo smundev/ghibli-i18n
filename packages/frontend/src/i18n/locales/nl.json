@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Werelden om in te verdwalen",
+    "overview": "Studio Ghibli is de legendarische Japanse animatiestudio achter geliefde films als Spirited Away, My Neighbor Totoro en Princess Mononoke — geroemd om zijn met de hand getekende vakmanschap, rijk verbeelde werelden en hartverwarmende verhalen.",
+    "overviewSecondary": "Blader door een selectie van de films van de studio en ontdek hun details.",
+    "viewMovies": "Bekijk films"
+  },
+  "movies": {
+    "heading": "Studio Ghibli-films",
+    "subtitle": "Tien verhalen over vliegen, bossen en verre oorden.",
+    "backToWelcome": "Terug naar welkom",
+    "loadError": "We konden de films niet laden.",
+    "retry": "Probeer opnieuw"
+  },
+  "film": {
+    "director": "Regisseur",
+    "releaseDate": "Uitgebracht",
+    "runtime": "Speelduur",
+    "runtimeUnit": "min",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Wetenswaardigheden"
+  },
+  "notFound": {
+    "backHome": "Terug naar de startpagina"
+  },
+  "error": {
+    "heading": "Oeps!",
+    "message": "Sorry, er is een onverwachte fout opgetreden.",
+    "unknown": "Onbekende fout"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Ontdek de films van Studio Ghibli — titels, details en wetenswaardigheden."
+  }
+}

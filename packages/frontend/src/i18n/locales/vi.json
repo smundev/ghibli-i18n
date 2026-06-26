@@ -1,0 +1,36 @@
+{
+  "welcome": {
+    "studioName": "Studio Ghibli",
+    "heroHeadline": "Những thế giới đáng để lạc bước",
+    "overview": "Studio Ghibli là hãng phim hoạt hình huyền thoại của Nhật Bản, đứng sau những bộ phim được yêu mến như Vùng đất linh hồn, Hàng xóm của tôi là Totoro và Công chúa Mononoke — nổi tiếng với nghệ thuật vẽ tay, những thế giới giàu trí tưởng tượng và lối kể chuyện chạm đến trái tim.",
+    "overviewSecondary": "Khám phá tuyển tập phim của hãng và tìm hiểu chi tiết về chúng.",
+    "viewMovies": "Xem phim"
+  },
+  "movies": {
+    "heading": "Phim của Studio Ghibli",
+    "subtitle": "Mười câu chuyện về những chuyến bay, những khu rừng và những miền đất xa xôi.",
+    "backToWelcome": "Quay lại trang chào mừng",
+    "loadError": "Chúng tôi không thể tải danh sách phim.",
+    "retry": "Thử lại"
+  },
+  "film": {
+    "director": "Đạo diễn",
+    "releaseDate": "Phát hành",
+    "runtime": "Thời lượng",
+    "runtimeUnit": "phút",
+    "scoreSource": "Rotten Tomatoes",
+    "trivia": "Chuyện bên lề"
+  },
+  "notFound": {
+    "backHome": "Quay về trang chủ"
+  },
+  "error": {
+    "heading": "Ối!",
+    "message": "Xin lỗi, đã xảy ra lỗi không mong muốn.",
+    "unknown": "Lỗi không xác định"
+  },
+  "app": {
+    "name": "Studio Ghibli",
+    "description": "Khám phá các bộ phim của Studio Ghibli — tựa phim, chi tiết và những điều thú vị."
+  }
+}

@@ -1,7 +1,12 @@
 import { GRAPHQL_PATH } from "~/config";
 import prisma from "~/prisma-client";
+import { loadFilmTranslations } from "~/seed/translations";
 import { createTestContext, type TestContext } from "~/tests/__helpers";
 import { films } from "../../../../prisma/seed/films.data";
+
+// Ponyo has a French translation; Porco Rosso is English-only.
+const PONYO_ID = "758bf02e-3122-46e0-884e-67cf83df1786";
+const PORCO_ID = "ebbb6b7c-945c-41ee-a792-de0e43191bd8";
 
 describe("film queries", () => {
   let ctx: TestContext;
@@ -9,10 +14,12 @@ describe("film queries", () => {
   beforeAll(async () => {
     await prisma.film.deleteMany();
     await prisma.film.createMany({ data: films });
+    await prisma.filmTranslation.createMany({ data: loadFilmTranslations() });
     ctx = await createTestContext();
   });
 
   afterAll(async () => {
+    // Deleting films cascades to their translations.
     await prisma.film.deleteMany();
     await ctx.stopServer();
     await prisma.$disconnect();
@@ -69,6 +76,46 @@ describe("film queries", () => {
     expect(response.status).toBe(200);
     expect(response.body.data.film.title).toBe(target.title);
     expect(response.body.data.film.languages).toEqual(target.languages);
+  });
+
+  it("returns film copy in the requested locale", async () => {
+    const queryData = {
+      query: `
+        query Film($id: ID!, $locale: String) {
+          film(id: $id, locale: $locale) {
+            title
+            tagline
+          }
+        }
+      `,
+      variables: { id: PONYO_ID, locale: "fr" },
+    };
+
+    const response = await ctx.request.post(GRAPHQL_PATH).send(queryData);
+
+    expect(response.status).toBe(200);
+    expect(response.body.data.film.title).toBe("Ponyo sur la falaise");
+    // French copy, not the English "A goldfish princess who longs to be human."
+    expect(response.body.data.film.tagline).toContain("poisson rouge");
+  });
+
+  it("falls back to English when the film lacks the requested locale", async () => {
+    const queryData = {
+      query: `
+        query Film($id: ID!, $locale: String) {
+          film(id: $id, locale: $locale) {
+            title
+          }
+        }
+      `,
+      // Porco Rosso has no German translation.
+      variables: { id: PORCO_ID, locale: "de" },
+    };
+
+    const response = await ctx.request.post(GRAPHQL_PATH).send(queryData);
+
+    expect(response.status).toBe(200);
+    expect(response.body.data.film.title).toBe("Porco Rosso");
   });
 
   it("should return null for an unknown film id", async () => {
