@@ -7,8 +7,10 @@ import { MoviesHeader } from "./components/MoviesHeader";
 const SKELETON_KEYS = ["s1", "s2", "s3", "s4", "s5", "s6", "s7", "s8"];
 
 const Movies = () => {
-  const { t } = useTranslation();
-  const { loading, error, data, refetch } = useGetFilmsQuery();
+  const { t, i18n } = useTranslation();
+  const { loading, error, data, refetch } = useGetFilmsQuery({
+    variables: { locale: i18n.language },
+  });
 
   if (loading) {
     return (

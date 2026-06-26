@@ -5,7 +5,7 @@ import { GET_FILMS } from "~/graphql/films";
 import Movies from "./Movies";
 
 const filmsMock = {
-  request: { query: GET_FILMS },
+  request: { query: GET_FILMS, variables: { locale: "en" } },
   result: {
     data: {
       films: [

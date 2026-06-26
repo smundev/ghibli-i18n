@@ -1,8 +1,8 @@
 import { gql } from "@apollo/client";
 
 export const GET_FILMS = gql`
-  query GetFilms {
-    films {
+  query GetFilms($locale: String) {
+    films(locale: $locale) {
       id
       title
       description

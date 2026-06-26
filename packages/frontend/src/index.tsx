@@ -1,14 +1,31 @@
 import { ApolloProvider } from "@apollo/client";
 import { CssBaseline, GlobalStyles, ThemeProvider } from "@mui/material";
-import React from "react";
+import React, { useMemo } from "react";
 import ReactDOM from "react-dom/client";
 import App from "~/App.tsx";
 import apolloClient from "~/apollo";
-import { DEFAULT_LOCALE } from "~/i18n";
+import { isRtlLocale } from "~/i18n";
+import { LocaleProvider, useLocale } from "~/i18n/LocaleProvider";
 import { globalStyles } from "~/shared/styles/global";
-import { theme } from "~/shared/styles/theme";
+import { createAppTheme } from "~/shared/styles/theme";
 
-document.documentElement.lang = DEFAULT_LOCALE;
+const AppRoot = () => {
+  const { locale } = useLocale();
+  const theme = useMemo(
+    () => createAppTheme(isRtlLocale(locale) ? "rtl" : "ltr"),
+    [locale]
+  );
+
+  return (
+    <ApolloProvider client={apolloClient}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles styles={globalStyles} />
+        <CssBaseline enableColorScheme />
+        <App />
+      </ThemeProvider>
+    </ApolloProvider>
+  );
+};
 
 const enableMocking = async () => {
   if (import.meta.env.MODE !== "test") {
@@ -28,13 +45,9 @@ enableMocking().then(() => {
 
   ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
-      <ApolloProvider client={apolloClient}>
-        <ThemeProvider theme={theme}>
-          <GlobalStyles styles={globalStyles} />
-          <CssBaseline enableColorScheme />
-          <App />
-        </ThemeProvider>
-      </ApolloProvider>
+      <LocaleProvider>
+        <AppRoot />
+      </LocaleProvider>
     </React.StrictMode>
   );
 });
