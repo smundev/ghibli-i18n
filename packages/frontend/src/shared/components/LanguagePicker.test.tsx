@@ -26,4 +26,28 @@ describe("LanguagePicker", () => {
     fireEvent.change(select, { target: { value: "ar" } });
     expect(document.documentElement.dir).toBe("rtl");
   });
+
+  it("localizes the document meta description", () => {
+    localStorage.clear();
+    const meta = document.createElement("meta");
+    meta.setAttribute("name", "description");
+    document.head.appendChild(meta);
+
+    render(
+      <LocaleProvider>
+        <LanguagePicker />
+      </LocaleProvider>
+    );
+
+    // Drive locales explicitly — the i18n singleton carries state across tests.
+    const select = screen.getByRole("combobox", { name: "Language" });
+
+    fireEvent.change(select, { target: { value: "en" } });
+    expect(meta.getAttribute("content")).toContain("Explore the films");
+
+    fireEvent.change(select, { target: { value: "es" } });
+    expect(meta.getAttribute("content")).toContain("Explora las películas");
+
+    meta.remove();
+  });
 });

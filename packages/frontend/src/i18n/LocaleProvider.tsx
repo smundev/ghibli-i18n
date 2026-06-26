@@ -25,12 +25,16 @@ const LocaleContext = createContext<LocaleContextValue | null>(null);
  * driving document direction.
  */
 export const LocaleProvider = ({ children }: { children: ReactNode }) => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [locale, setLocaleState] = useState(i18n.language);
 
   useEffect(() => {
     applyDocumentLocale(locale);
-  }, [locale]);
+    document.title = t("app.name");
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", t("app.description"));
+  }, [locale, t]);
 
   const setLocale = useCallback(
     (next: string) => {

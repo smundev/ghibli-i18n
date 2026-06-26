@@ -1,28 +1,25 @@
 # Studio Ghibli — Internationalization Take-Home (Starter)
 
-This repository is the **starter** for the Studio Ghibli internationalization
-take-home. It contains a small, working Studio Ghibli web app that currently ships
-in **English only**:
+This repository implements **internationalization** for a small Studio Ghibli web
+app, built on top of the take-home starter. It has two screens:
 
 - a **Welcome** screen with a short studio overview, and
 - a **Movies** screen that fetches film details (image, title, tagline, director,
   release date, runtime, score, and trivia) from a GraphQL backend.
 
-Your job is to make the site **internationalization-ready**, using the translation
-source material provided under [`translations/`](./translations).
+Both are now fully localized: a **language picker** switches between the
+**20 supported languages**, the UI chrome and the film copy update together,
+numbers are formatted per locale, and text direction flips for right-to-left
+locales (Arabic). See **[Internationalization](#internationalization)** for the
+design, trade-offs, and what I'd do next.
 
-This is a full-stack exercise: alongside backend and data work, the UI will likely
-need new pieces too — for example, a way for users to choose a language (a language
-picker, flags, a menu, etc.), since the app has none today.
-
-The full brief — goals, what we're evaluating, and how to submit — is in the
+The original brief — goals, what's evaluated, and how to submit — is in the
 assignment:
 
 📋 **[Assignment instructions → `STUDIO_GHIBLI_I18N_TAKEHOME.md`](./STUDIO_GHIBLI_I18N_TAKEHOME.md)**
 
-There is **no internationalization in the app yet** — every string and every film
-is English. The Markdown under `translations/` is source material only; no
-application code reads it.
+The translation source material under [`translations/`](./translations) is now
+**ingested by the app** (see below) rather than inert.
 
 ## What's in here
 
@@ -72,7 +69,7 @@ cd packages/backend
 cp .env.example .env           # create local settings (server port, database URL)
 pnpm generate                  # generate the Prisma client and the GraphQL schema file
 pnpm migrate                   # create the database tables
-pnpm seed                      # load the ten films into the database
+pnpm seed                      # load the ten films + their translations into the database
 pnpm dev                       # start the GraphQL server — leave this running
 ```
 
@@ -98,7 +95,9 @@ all set.
 
 > The frontend's generated GraphQL hooks are committed, so it runs without a codegen
 > step. After you change a GraphQL operation, run `pnpm codegen` (from
-> `packages/frontend`) to regenerate them.
+> `packages/frontend`) to regenerate them. Likewise the site i18n catalogs are
+> committed; after editing the Markdown under `translations/site`, run `pnpm i18n`
+> (from `packages/frontend`) to regenerate `src/i18n/locales/*.json`.
 
 ## How film data is served
 
@@ -110,11 +109,77 @@ runtime.
 
 ## `translations/`
 
-[`translations/`](./translations) holds Markdown source material for localizing the
-app — general/static site copy across **20 languages**, plus per-film copy in the
-subset of languages each film supports (coverage is intentionally uneven). These
-files ship as raw material for the assignment and are **not** imported by any
-application code. See [`translations/README.md`](./translations/README.md).
+[`translations/`](./translations) holds the Markdown **source of truth** for
+localized copy — general/static site copy across **20 languages**, plus per-film
+copy in the subset of languages each film supports (coverage is intentionally
+uneven). It is ingested two ways: the backend **seed** parses the per-film
+Markdown into the database, and `pnpm --filter frontend i18n` generates the site
+UI catalogs. See [`translations/README.md`](./translations/README.md) and
+[Internationalization](#internationalization).
+
+## Internationalization
+
+### How it works
+
+Two kinds of content are localized differently, because they have different
+shapes:
+
+| Content | Source | Coverage | Home |
+|---------|--------|----------|------|
+| **Site UI strings** (headings, buttons, errors, labels) | `translations/site/<lang>.md` | All 20, uniform | **Frontend** message catalogs |
+| **Film copy** (title, tagline, description, trivia) | `translations/films/<slug>/<lang>.md` | Uneven per film | **Backend** (GraphQL), with English fallback |
+
+Locale-invariant film fields (image, banner, score, runtime, release date,
+director) are **not** translated.
+
+**Backend.** A `FilmTranslation` table holds one row per `(film, locale)`;
+English is a row too, not a special case. The `films`/`film` queries take a
+`locale` argument and resolve translatable fields for it, **falling back to
+English** when a film lacks that locale. A film's `languages` array is derived
+from the rows that actually exist, so it can never advertise a translation that
+isn't there. The seed parses the Markdown into the table, so the files stay the
+source of truth.
+
+**Frontend.** `i18next` + `react-i18next` drive UI strings; catalogs are
+generated from the site Markdown by `pnpm i18n`. A `LanguagePicker` (offering all
+20 site locales, each shown in its own language) sets the active locale, which is
+persisted to `localStorage` and applied to `<html lang>`/`<dir>`. The locale is
+passed as the GraphQL `locale` variable so film copy refetches on change, and
+numbers are rendered with `Intl.NumberFormat`.
+
+### Key decisions & trade-offs
+
+- **Two-tier split (UI vs. film copy).** Uniform site copy belongs in the
+  bundle; data-driven, unevenly-covered film copy belongs with the data. This
+  keeps UI strings off the network and centralizes the fallback rule server-side.
+- **`FilmTranslation` table** over a JSON column or column-per-locale: gives
+  referential integrity, an indexable `(filmId, locale)` lookup, and lets
+  `languages` be derived from real rows.
+- **`locale` as a GraphQL argument** (vs. an `Accept-Language` header): explicit,
+  cache-friendly, and easy to vary per request.
+- **Markdown is the source of truth.** Rather than hand-copying strings, a parse
+  step feeds both the DB seed and the frontend catalogs — committed outputs, so a
+  clean checkout runs without extra steps.
+- **Apollo cache keyed per locale.** `Film` uses `keyFields: false` so each
+  `films(locale:)` result is cached independently; otherwise the normalized
+  `Film:{id}` entity would be overwritten across languages and show stale text
+  when switching back.
+- **Type-safe keys.** `t()` keys are type-checked against the English catalog via
+  a module augmentation, so a typo'd key fails the build.
+
+### Known gaps / what I'd do next
+
+- **RTL is partial.** `<html dir>` and the MUI theme direction flip for Arabic
+  (text aligns correctly), but full bidirectional *style mirroring* would need
+  `stylis-plugin-rtl` + an emotion cache.
+- **The picker's own `aria-label`** ("Language") isn't localized — the source
+  Markdown has no key for it; I'd add a `controls.language` string with native
+  review.
+- **Catalogs are eagerly bundled.** Fine at 20 small files; lazy per-locale
+  loading would trim the initial bundle.
+- **Further:** localized film *ordering* by translated title is done, but search
+  isn't localized; translation-coverage QA tooling and URL-encoded locale (for
+  shareable links) would be natural next steps.
 
 ## Quality checks
 

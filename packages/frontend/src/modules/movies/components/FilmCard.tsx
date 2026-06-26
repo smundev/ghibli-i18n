@@ -1,6 +1,7 @@
 import { Skeleton, styled } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import type { GetFilmsQuery } from "~/graphql/gen/graphql";
+import { formatNumber } from "~/shared/intl";
 
 type FilmSummary = GetFilmsQuery["films"][number];
 
@@ -9,23 +10,31 @@ interface FilmCardProps {
 }
 
 export const FilmCard = ({ film }: FilmCardProps) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const locale = i18n.language;
 
   return (
     <FilmCardRoot>
       <PosterWrap>
         <Poster alt={film.title} src={film.image} />
-        <ScoreBadge title={t("film.scoreSource")}>★ {film.score}%</ScoreBadge>
+        <ScoreBadge title={t("film.scoreSource")}>
+          ★ {formatNumber(film.score, locale)}%
+        </ScoreBadge>
       </PosterWrap>
       <Body>
         <FilmTitle>{film.title}</FilmTitle>
         <Tagline>{film.tagline}</Tagline>
         <MetaRow>
           <Meta label={t("film.director")} value={film.director} />
-          <Meta label={t("film.releaseDate")} value={film.releaseDate} />
+          <Meta
+            label={t("film.releaseDate")}
+            value={formatNumber(film.releaseDate, locale, {
+              useGrouping: false,
+            })}
+          />
           <Meta
             label={t("film.runtime")}
-            value={`${film.runtime} ${t("film.runtimeUnit")}`}
+            value={`${formatNumber(film.runtime, locale)} ${t("film.runtimeUnit")}`}
           />
         </MetaRow>
         <Description>{film.description}</Description>
